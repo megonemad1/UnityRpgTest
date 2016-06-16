@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CurvedChestAC
+  m_Controller: {fileID: 9100000, guid: b97ba0771791b064a958b088a6fc3de1, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 7c55e7e7497b81c4a8694c21c0efdb3e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0b37e71ad7838de4381609f7c9633120, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d849706579d83ef49a4a19a4cb64ba3a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9741e323d8a9d7a4da3372ae88578fe0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 13a4d48aec9c4ed4494b694f51a33ca9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 206ae988608f9604d85a92049e300684, type: 2}
