@@ -1,378 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" nextobjectid="1">
- <tileset firstgid="1" name="barrel" tilewidth="32" tileheight="32" tilecount="8" columns="4">
-  <image source="../LPCBaseAssets/tiles/barrel.png" width="128" height="64"/>
- </tileset>
- <tileset firstgid="9" name="brackish" tilewidth="32" tileheight="32" tilecount="18" columns="3">
-  <image source="../LPCBaseAssets/tiles/brackish.png" width="96" height="192"/>
- </tileset>
- <tileset firstgid="27" name="bridges" tilewidth="32" tileheight="32" tilecount="42" columns="6">
-  <image source="../LPCBaseAssets/tiles/bridges.png" width="192" height="224"/>
- </tileset>
- <tileset firstgid="69" name="buckets" tilewidth="32" tileheight="32" tilecount="6" columns="3">
-  <image source="../LPCBaseAssets/tiles/buckets.png" width="96" height="64"/>
- </tileset>
- <tileset firstgid="75" name="cabinets" tilewidth="32" tileheight="32" tilecount="78" columns="6">
-  <image source="../LPCBaseAssets/tiles/cabinets.png" width="192" height="416"/>
- </tileset>
- <tileset firstgid="153" name="castlefloors" tilewidth="32" tileheight="32" tilecount="100" columns="10">
-  <image source="../LPCBaseAssets/tiles/castlefloors.png" width="320" height="320"/>
- </tileset>
- <tileset firstgid="253" name="castlefloors_outside" tilewidth="32" tileheight="32" tilecount="20" columns="4">
-  <image source="../LPCBaseAssets/tiles/castlefloors_outside.png" width="128" height="160"/>
- </tileset>
- <tileset firstgid="273" name="castle_lightsources" tilewidth="32" tileheight="32" tilecount="20" columns="5">
-  <image source="../LPCBaseAssets/tiles/castle_lightsources.png" width="160" height="128"/>
- </tileset>
- <tileset firstgid="293" name="castle_outside" tilewidth="32" tileheight="32" tilecount="187" columns="17">
-  <image source="../LPCBaseAssets/tiles/castle_outside.png" width="544" height="352"/>
- </tileset>
- <tileset firstgid="480" name="castlewalls" tilewidth="32" tileheight="32" tilecount="180" columns="12">
-  <image source="../LPCBaseAssets/tiles/castlewalls.png" width="384" height="480"/>
- </tileset>
- <tileset firstgid="660" name="cement" tilewidth="32" tileheight="32" tilecount="18" columns="3">
-  <image source="../LPCBaseAssets/tiles/cement.png" width="96" height="192"/>
- </tileset>
- <tileset firstgid="678" name="cementstair" tilewidth="32" tileheight="32" tilecount="20" columns="5">
-  <image source="../LPCBaseAssets/tiles/cementstair.png" width="160" height="128"/>
- </tileset>
- <tileset firstgid="698" name="chests" tilewidth="32" tileheight="32" tilecount="6" columns="2">
-  <image source="../LPCBaseAssets/tiles/chests.png" width="64" height="96"/>
-  <tile id="1">
-   <objectgroup draworder="index">
-    <object id="0" x="0" y="0.181818" width="32" height="32"/>
-   </objectgroup>
-  </tile>
- </tileset>
- <tileset firstgid="704" name="country" tilewidth="32" tileheight="32" tilecount="20" columns="5">
-  <image source="../LPCBaseAssets/tiles/country.png" width="160" height="128"/>
- </tileset>
- <tileset firstgid="724" name="cup" tilewidth="32" tileheight="32" tilecount="2" columns="1">
-  <image source="../LPCBaseAssets/tiles/cup.png" width="32" height="64"/>
- </tileset>
- <tileset firstgid="726" name="dirt" tilewidth="32" tileheight="32" tilecount="18" columns="3">
-  <image source="../LPCBaseAssets/tiles/dirt.png" width="96" height="192"/>
- </tileset>
- <tileset firstgid="744" name="dirt2" tilewidth="32" tileheight="32" tilecount="18" columns="3">
-  <image source="../LPCBaseAssets/tiles/dirt2.png" width="96" height="192"/>
-  <terraintypes>
-   <terrain name="Dirt" tile="-1"/>
-  </terraintypes>
-  <tile id="1" terrain="0,0,0,"/>
-  <tile id="2" terrain="0,0,,0"/>
-  <tile id="4" terrain="0,,0,0"/>
-  <tile id="5" terrain=",0,0,0"/>
-  <tile id="6" terrain=",,,0"/>
-  <tile id="7" terrain=",,0,0"/>
-  <tile id="8" terrain=",,0,"/>
-  <tile id="9" terrain=",0,,0"/>
-  <tile id="10" terrain="0,0,0,0"/>
-  <tile id="11" terrain="0,,0,"/>
-  <tile id="12" terrain=",0,,"/>
-  <tile id="13" terrain="0,0,,"/>
-  <tile id="14" terrain="0,,,"/>
-  <tile id="15" terrain="0,0,0,0"/>
-  <tile id="16" terrain="0,0,0,0"/>
-  <tile id="17" terrain="0,0,0,0"/>
- </tileset>
- <tileset firstgid="762" name="dungeon" tilewidth="32" tileheight="32" tilecount="104" columns="13">
-  <image source="../LPCBaseAssets/tiles/dungeon.png" width="416" height="256"/>
- </tileset>
- <tileset firstgid="866" name="grass" tilewidth="32" tileheight="32" tilecount="18" columns="3">
-  <image source="../LPCBaseAssets/tiles/grass.png" width="96" height="192"/>
- </tileset>
- <tileset firstgid="884" name="grassalt" tilewidth="32" tileheight="32" tilecount="18" columns="3">
-  <image source="../LPCBaseAssets/tiles/grassalt.png" width="96" height="192"/>
- </tileset>
- <tileset firstgid="902" name="hole" tilewidth="32" tileheight="32" tilecount="18" columns="3">
-  <image source="../LPCBaseAssets/tiles/hole.png" width="96" height="192"/>
-  <terraintypes>
-   <terrain name="Hole" tile="-1"/>
-  </terraintypes>
-  <tile id="1" terrain="0,0,0,">
-   <objectgroup draworder="index">
-    <object id="0" x="32.0909" y="20.6364">
-     <polyline points="0,0 -8,4.63636 -8.54545,11.3636 -32.0909,11.3636 -32.0909,-20.6364 -0.0909091,-20.6364 -0.0909091,0.272727"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="2" terrain="0,0,,0">
-   <objectgroup draworder="index">
-    <object id="0" x="0.0909091" y="19.3636">
-     <polyline points="0,0 9.54545,7.81818 8.18182,12.7273 31.9091,12.6364 31.9091,-19.3636 -0.0909091,-19.3636 -0.0909091,-0.272727 0.0909091,0.181818"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="4" terrain="0,,0,0">
-   <objectgroup draworder="index">
-    <object id="0" x="23.9091" y="0.181818">
-     <polyline points="0,0 -2.81818,4.45455 -2.09091,7.45455 8.09091,9.90909 8.09091,31.8182 -23.9091,31.8182 -23.9091,-0.181818 0.181818,-0.0909091"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="5" terrain=",0,0,0">
-   <objectgroup draworder="index">
-    <object id="0" x="9.18182" y="0.272727">
-     <polyline points="0,0 -0.181818,8 -2.54545,9.72727 -9.18182,9.18182 -9.18182,31.7273 22.8182,31.7273 22.8182,-0.272727 0,-0.0909091"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="6" terrain=",,,0">
-   <objectgroup draworder="index">
-    <object id="0" x="9.36364" y="32">
-     <polyline points="0,0 6.18182,-6 6.63636,-11.1818 12.0909,-17.7273 16.4545,-18.2727 22.2727,-23.9091 22.7273,-23.9091 22.6364,0 -0.0909091,0"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="7" terrain=",,0,0">
-   <objectgroup draworder="index">
-    <object id="0" x="0.0909091" y="9.09091">
-     <polyline points="0,0 11.1818,1 16.1818,-2.72727 25.1818,-1.18182 31.8182,-1.18182 31.9091,22.9091 -0.0909091,22.9091 -0.181818,-0.0909091"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="8" terrain=",,0,">
-   <objectgroup draworder="index">
-    <object id="0" x="0" y="8.09091">
-     <polyline points="0,0 7.63636,1.27273 12.7273,5.09091 12.8182,9.27273 17.5455,10.9091 23,23.7273 0,23.9091 0,0"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="9" terrain=",0,,0">
-   <objectgroup draworder="index">
-    <object id="0" x="9.18182" y="0.272727">
-     <polyline points="0,0 0.0909091,1.72727 3.09091,4.90909 1.18182,7.36364 2.54545,12.0909 6,16.0909 5.72727,18.8182 2.81818,21.4545 5.72727,24.7273 5.27273,26 0.454545,27.7273 -0.272727,31.7273 22.8182,31.7273 22.8182,-0.272727 0.272727,-0.181818"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="10" terrain="0,0,0,0"/>
-  <tile id="11" terrain="0,,0,">
-   <objectgroup draworder="index">
-    <object id="0" x="23.0909" y="32.0909">
-     <polyline points="0,0 0.272727,-2.90909 2.72727,-8.27273 -2.36364,-19.8182 -5.72727,-23.4545 -5.90909,-27.6364 0,-32 -23.0909,-32.0909 -23.0909,-0.0909091 0,0"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="12" terrain=",0,,">
-   <objectgroup draworder="index">
-    <object id="0" x="9.09091" y="-0.0909091">
-     <polyline points="0,0 13.0909,10.2727 12.1818,14.2727 18,17.4545 20.5455,19.9091 22.9091,20 22.9091,0.0909091 0.181818,0.0909091"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="13" terrain="0,0,,">
-   <objectgroup draworder="index">
-    <object id="0" x="31.8182" y="19.1818">
-     <polyline points="0,0 -4.54545,0.818182 -8.54545,-2.36364 -11.8182,-2.18182 -16.3636,0.545455 -23.9091,0.272727 -27.9091,-1.81818 -31.7273,0.727273 -31.8182,-19.1818 0.181818,-19.1818 0,0.0909091"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="14" terrain="0,,,">
-   <objectgroup draworder="index">
-    <object id="0" x="23.0909" y="0.181818">
-     <polyline points="0,0 -7.27273,7.27273 -5.45455,10.8182 -15.8182,20.6364 -23.0909,18.1818 -23.0909,-0.181818 0,-0.0909091"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="15" terrain="0,0,0,0">
-   <objectgroup draworder="index">
-    <object id="0" x="0.0909091" y="0.0909091" width="32" height="32"/>
-   </objectgroup>
-  </tile>
-  <tile id="16" terrain="0,0,0,0">
-   <objectgroup draworder="index">
-    <object id="0" x="0.0909091" y="0.0909091" width="32" height="32"/>
-   </objectgroup>
-  </tile>
-  <tile id="17" terrain="0,0,0,0">
-   <objectgroup draworder="index">
-    <object id="0" x="0.0909091" y="0" width="32" height="32"/>
-   </objectgroup>
-  </tile>
- </tileset>
- <tileset firstgid="920" name="holek" tilewidth="32" tileheight="32" tilecount="18" columns="3">
-  <image source="../LPCBaseAssets/tiles/holek.png" width="96" height="192"/>
- </tileset>
- <tileset firstgid="938" name="holemid" tilewidth="32" tileheight="32" tilecount="18" columns="3">
-  <image source="../LPCBaseAssets/tiles/holemid.png" width="96" height="192"/>
- </tileset>
- <tileset firstgid="956" name="house" tilewidth="32" tileheight="32" tilecount="63" columns="9">
-  <image source="../LPCBaseAssets/tiles/house.png" width="288" height="224"/>
- </tileset>
- <tileset firstgid="1019" name="inside" tilewidth="32" tileheight="32" tilecount="100" columns="10">
-  <image source="../LPCBaseAssets/tiles/inside.png" width="320" height="320"/>
- </tileset>
- <tileset firstgid="1119" name="kitchen" tilewidth="32" tileheight="32" tilecount="8" columns="2">
-  <image source="../LPCBaseAssets/tiles/kitchen.png" width="64" height="128"/>
- </tileset>
- <tileset firstgid="1127" name="lava" tilewidth="32" tileheight="32" tilecount="18" columns="3">
-  <image source="../LPCBaseAssets/tiles/lava.png" width="96" height="192"/>
- </tileset>
- <tileset firstgid="1145" name="lavarock" tilewidth="32" tileheight="32" tilecount="18" columns="3">
-  <image source="../LPCBaseAssets/tiles/lavarock.png" width="96" height="192"/>
- </tileset>
- <tileset firstgid="1163" name="mountains" tilewidth="32" tileheight="32" tilecount="108" columns="12">
-  <image source="../LPCBaseAssets/tiles/mountains.png" width="384" height="288"/>
- </tileset>
- <tileset firstgid="1271" name="rock" tilewidth="32" tileheight="32" tilecount="2" columns="2">
-  <image source="../LPCBaseAssets/tiles/rock.png" width="64" height="32"/>
-  <tile id="0">
-   <objectgroup draworder="index">
-    <object id="0" x="9.26087" y="0.304348">
-     <polyline points="0,0 -6,6.30435 -7.04348,14.1304 -8.82609,20.5217 -9,25.3913 -3.6087,29.6087 2.82609,30.9565 4.95652,31.6522 16.6522,31.5652 20.7826,29.4348 22.8696,25.087 22.8261,16.5217 20.6522,13.5217 20.6957,6.6087 16.3043,3.6087 13.5217,2.78261 11.3913,1.78261 10.4783,0.782609 7.6087,-0.217391 -0.0434783,-0.0869565 0,0"/>
-    </object>
-   </objectgroup>
-  </tile>
- </tileset>
- <tileset firstgid="1273" name="signs" tilewidth="32" tileheight="32" tilecount="6" columns="3">
-  <image source="../LPCBaseAssets/tiles/signs.png" width="96" height="64"/>
- </tileset>
- <tileset firstgid="1279" name="stairs" tilewidth="32" tileheight="32" tilecount="112" columns="8">
-  <image source="../LPCBaseAssets/tiles/stairs.png" width="256" height="448"/>
- </tileset>
- <tileset firstgid="1391" name="treetop" tilewidth="32" tileheight="32" tilecount="42" columns="6">
-  <image source="../LPCBaseAssets/tiles/treetop.png" width="192" height="224"/>
- </tileset>
- <tileset firstgid="1433" name="trunk" tilewidth="32" tileheight="32" tilecount="18" columns="6">
-  <image source="../LPCBaseAssets/tiles/trunk.png" width="192" height="96"/>
-  <tile id="4">
-   <objectgroup draworder="index">
-    <object id="0" x="9" y="1" width="15.5" height="31"/>
-   </objectgroup>
-  </tile>
-  <tile id="7">
-   <objectgroup draworder="index">
-    <object id="0" x="8.5" y="1">
-     <polyline points="0,0 -0.5,21.5 -2.5,22 -1.5,24.5 3.5,28.5 13.5,28.5 18.5,24 16,20.5 16,-0.5 0,-1"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="10">
-   <objectgroup draworder="index">
-    <object id="0" x="9" y="0" width="14.5" height="27"/>
-   </objectgroup>
-  </tile>
- </tileset>
- <tileset firstgid="1451" name="victoria" tilewidth="32" tileheight="32" tilecount="55" columns="11">
-  <image source="../LPCBaseAssets/tiles/victoria.png" width="352" height="160"/>
- </tileset>
- <tileset firstgid="1506" name="water" tilewidth="32" tileheight="32" tilecount="18" columns="3">
-  <image source="../LPCBaseAssets/tiles/water.png" width="96" height="192"/>
-  <terraintypes>
-   <terrain name="water" tile="-1"/>
-  </terraintypes>
-  <tile id="1" terrain="0,0,0,">
-   <objectgroup draworder="index">
-    <object id="0" x="31.9091" y="20.7273">
-     <polyline points="0,0 -8.18182,4.27273 -8.27273,11.3636 -31.9091,11.2727 -31.9091,-20.7273 0.0909091,-20.7273 -0.0909091,0.0909091"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="2" terrain="0,0,,0">
-   <objectgroup draworder="index">
-    <object id="0" x="8.45455" y="32">
-     <polyline points="0,0 1.63636,-3.45455 1.09091,-5.27273 -6.90909,-12.2727 -8.36364,-12.5455 -8.45455,-32 23.5455,-32 23.5455,0 -0.0909091,0"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="4" terrain="0,,0,0">
-   <objectgroup draworder="index">
-    <object id="0" x="0.181818" y="0.181818">
-     <polyline points="0,0 0,31.8182 31.8182,31.8182 31.9091,9.72727 20.9091,7.81818 19.4545,4.81818 23.2727,1.72727 23.3636,-0.0909091 0,-0.0909091"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="5" terrain=",0,0,0">
-   <objectgroup draworder="index">
-    <object id="0" x="0.0909091" y="9">
-     <polyline points="0,0 4.90909,0.727273 8.90909,-0.727273 9,-9.09091 31.9091,-9 31.9091,23 -0.0909091,23 0,-0.0909091"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="6" terrain=",,,0">
-   <objectgroup draworder="index">
-    <object id="0" x="32" y="8.5">
-     <polyline points="0,0 -11,6 -18,18 -23,24 0.5,23.5 0.5,0"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="7" terrain=",,0,0">
-   <objectgroup draworder="index">
-    <object id="0" x="0" y="10">
-     <polyline points="0,0 8,0.5 13,0 18,-3 26,-2 33.5,-2 32,21 0.5,22 0,-0.5"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="8" terrain=",,0,">
-   <objectgroup draworder="index">
-    <object id="0" x="0.5" y="8">
-     <polyline points="0,0 7.5,1.5 11,5.5 12.5,9 18,11.5 21.5,23 0.5,24 0,0.5"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="9" terrain=",0,,0">
-   <objectgroup draworder="index">
-    <object id="0" x="11" y="0.5">
-     <polyline points="0,0 3.5,17 -1.5,32 21.5,32 21.5,0 1,0"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="10" terrain="0,0,0,0">
-   <objectgroup draworder="index">
-    <object id="0" x="0.0909091" y="0.181818" width="31.8182" height="31.8182"/>
-   </objectgroup>
-  </tile>
-  <tile id="11" terrain="0,,0,">
-   <objectgroup draworder="index">
-    <object id="0" x="22.5" y="0.5">
-     <polyline points="0,0 -6.5,6 3,22 0.5,31.5 -22,32 -23,-1.5 0.5,-0.5"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="12" terrain=",0,,">
-   <objectgroup draworder="index">
-    <object id="0" x="11" y="-0.5">
-     <polyline points="0,0 21,20 21.5,0 -0.5,0"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="13" terrain="0,0,,">
-   <objectgroup draworder="index">
-    <object id="0" x="0" y="0">
-     <polyline points="0,0 0.5,17.5 32.5,16.5 32,0 0.5,0.5"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="14" terrain="0,,,">
-   <objectgroup draworder="index">
-    <object id="0" x="22.5" y="1">
-     <polyline points="0,0 -6.5,8 -12.5,18 -20.5,18.5 -22.5,16.5 -22,0 -22,-0.5 0,-0.5"/>
-    </object>
-   </objectgroup>
-  </tile>
-  <tile id="15" terrain="0,0,0,0">
-   <objectgroup draworder="index">
-    <object id="0" x="0.0909091" y="0.181818" width="31.9091" height="31.9091"/>
-   </objectgroup>
-  </tile>
-  <tile id="16" terrain="0,0,0,0">
-   <objectgroup draworder="index">
-    <object id="0" x="0.0909091" y="0.181818" width="32" height="31.8182"/>
-   </objectgroup>
-  </tile>
-  <tile id="17" terrain="0,0,0,0">
-   <objectgroup draworder="index">
-    <object id="0" x="0.181818" y="0.0909091" width="31.8182" height="31.8182"/>
-   </objectgroup>
-  </tile>
- </tileset>
- <tileset firstgid="1524" name="waterfall" tilewidth="32" tileheight="32" tilecount="15" columns="3">
-  <image source="../LPCBaseAssets/tiles/waterfall.png" width="96" height="160"/>
- </tileset>
- <tileset firstgid="1539" name="watergrass" tilewidth="32" tileheight="32" tilecount="18" columns="3">
-  <image source="../LPCBaseAssets/tiles/watergrass.png" width="96" height="192"/>
- </tileset>
- <layer name="Grass" width="25" height="25">
+ <tileset firstgid="1" source="../LPCBaseAssets/Tiled sets/barrel.tsx"/>
+ <tileset firstgid="9" source="../LPCBaseAssets/Tiled sets/brackish.tsx"/>
+ <tileset firstgid="27" source="../LPCBaseAssets/Tiled sets/bridges.tsx"/>
+ <tileset firstgid="69" source="../LPCBaseAssets/Tiled sets/buckets.tsx"/>
+ <tileset firstgid="75" source="../LPCBaseAssets/Tiled sets/cabinets.tsx"/>
+ <tileset firstgid="153" source="../LPCBaseAssets/Tiled sets/castlefloors.tsx"/>
+ <tileset firstgid="253" source="../LPCBaseAssets/Tiled sets/castlefloors_outside.tsx"/>
+ <tileset firstgid="273" source="../LPCBaseAssets/Tiled sets/castle_lightsources.tsx"/>
+ <tileset firstgid="293" source="../LPCBaseAssets/Tiled sets/castle_outside.tsx"/>
+ <tileset firstgid="480" source="../LPCBaseAssets/Tiled sets/castlewalls.tsx"/>
+ <tileset firstgid="660" source="../LPCBaseAssets/Tiled sets/cement.tsx"/>
+ <tileset firstgid="678" source="../LPCBaseAssets/Tiled sets/cementstair.tsx"/>
+ <tileset firstgid="698" source="../LPCBaseAssets/Tiled sets/chests.tsx"/>
+ <tileset firstgid="704" source="../LPCBaseAssets/Tiled sets/country.tsx"/>
+ <tileset firstgid="724" source="../LPCBaseAssets/Tiled sets/cup.tsx"/>
+ <tileset firstgid="726" source="../LPCBaseAssets/Tiled sets/dirt.tsx"/>
+ <tileset firstgid="744" source="../LPCBaseAssets/Tiled sets/dirt2.tsx"/>
+ <tileset firstgid="762" source="../LPCBaseAssets/Tiled sets/dungeon.tsx"/>
+ <tileset firstgid="866" source="../LPCBaseAssets/Tiled sets/grass.tsx"/>
+ <tileset firstgid="884" source="../LPCBaseAssets/Tiled sets/grassalt.tsx"/>
+ <tileset firstgid="902" source="../LPCBaseAssets/Tiled sets/hole.tsx"/>
+ <tileset firstgid="920" source="../LPCBaseAssets/Tiled sets/holek.tsx"/>
+ <tileset firstgid="938" source="../LPCBaseAssets/Tiled sets/holemid.tsx"/>
+ <tileset firstgid="956" source="../LPCBaseAssets/Tiled sets/house.tsx"/>
+ <tileset firstgid="1019" source="../LPCBaseAssets/Tiled sets/inside.tsx"/>
+ <tileset firstgid="1119" source="../LPCBaseAssets/Tiled sets/kitchen.tsx"/>
+ <tileset firstgid="1127" source="../LPCBaseAssets/Tiled sets/lava.tsx"/>
+ <tileset firstgid="1145" source="../LPCBaseAssets/Tiled sets/lavarock.tsx"/>
+ <tileset firstgid="1163" source="../LPCBaseAssets/Tiled sets/mountains.tsx"/>
+ <tileset firstgid="1271" source="../LPCBaseAssets/Tiled sets/rock.tsx"/>
+ <tileset firstgid="1273" source="../LPCBaseAssets/Tiled sets/signs.tsx"/>
+ <tileset firstgid="1279" source="../LPCBaseAssets/Tiled sets/stairs.tsx"/>
+ <tileset firstgid="1391" source="../LPCBaseAssets/Tiled sets/treetop.tsx"/>
+ <tileset firstgid="1433" source="../LPCBaseAssets/Tiled sets/trunk.tsx"/>
+ <tileset firstgid="1451" source="../LPCBaseAssets/Tiled sets/victoria.tsx"/>
+ <tileset firstgid="1506" source="../LPCBaseAssets/Tiled sets/water.tsx"/>
+ <tileset firstgid="1524" source="../LPCBaseAssets/Tiled sets/waterfall.tsx"/>
+ <tileset firstgid="1539" source="../LPCBaseAssets/Tiled sets/watergrass.tsx"/>
+ <layer name="Grass" width="25" height="25" opacity="0.99">
   <data encoding="csv">
 882,883,882,882,882,883,882,881,882,882,881,883,883,882,882,881,882,883,881,883,881,881,882,881,883,
 882,882,883,881,882,883,881,881,883,882,882,883,883,882,881,883,882,883,881,883,881,881,883,881,881,
