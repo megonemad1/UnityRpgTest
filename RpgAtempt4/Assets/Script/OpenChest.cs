@@ -16,10 +16,9 @@ public class OpenChest : MonoBehaviour, UseAction
         colider.enabled = false;
         InventoryManager inventory = sender.GetComponent<InventoryManager>();
         if (inventory)
-        {
-            if (!inventory.addItem(loot))
-            {
-                Item newloot = Instantiate<Item>(loot);
+        { Item newloot = Instantiate<Item>(loot);
+            if (!inventory.addItem(newloot))
+            {               
                 newloot.transform.position = this.transform.position;
             }
         }

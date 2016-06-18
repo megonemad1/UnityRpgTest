@@ -22,6 +22,8 @@ public class HealthPotion : Item {
     // Use this for initialization
     void Start () {
         ItemTypes = new List<ItemType>();
+        ItemTypes.Add(ItemType.useable);
+        ItemTypes.Add(ItemType.Buff);
 	}
 	
 	// Update is called once per frame

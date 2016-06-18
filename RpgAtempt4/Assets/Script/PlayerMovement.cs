@@ -3,12 +3,9 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+    LivingStatsManager stats;
     Rigidbody2D rbody;
     Animator anim;
-    public float walkingSpeed = 1;
-    public float RunningSpeed = 2;
-    public float Speed = 1;
     public Vector2 Facing
     {
         get
@@ -23,15 +20,18 @@ public class PlayerMovement : MonoBehaviour
     {
         rbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        stats = GetComponent<LivingStatsManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetAxisRaw("Fire3")==1)
-            Speed = RunningSpeed;
-        else
-            Speed = walkingSpeed;
+        
+        float Speed = stats.WalkingSpeed;
+        if (Input.GetAxisRaw("Fire3") == 1)
+        {
+            Speed *= stats.runningModifyer;
+        }
         anim.SetFloat("Speed", Speed);
         Vector2 movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         bool moving = movement != Vector2.zero;

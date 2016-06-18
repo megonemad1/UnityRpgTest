@@ -46,6 +46,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\CamraFollow.cs" />
+     <Compile Include="Assets\Script\ExposeProperties.cs" />
+     <Compile Include="Assets\Script\HandManager.cs" />
      <Compile Include="Assets\Script\InventoryManager.cs" />
      <Compile Include="Assets\Script\Items\HealthPotion.cs" />
      <Compile Include="Assets\Script\Items\Item.cs" />
