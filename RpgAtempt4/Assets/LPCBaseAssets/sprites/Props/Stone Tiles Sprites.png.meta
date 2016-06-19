@@ -1,9 +1,167 @@
 fileFormatVersion: 2
 guid: 6fe6016e31ddb8a4abbea636a91bb75d
-timeCreated: 1466166740
+timeCreated: 1466188917
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Stone Tiles Sprites_0
+    21300002: Stone Tiles Sprites_1
+    21300004: Stone Tiles Sprites_2
+    21300006: Stone Tiles Sprites_3
+    21300008: Stone Tiles Sprites_4
+    21300010: Stone Tiles Sprites_5
+    21300012: Stone Tiles Sprites_6
+    21300014: Stone Tiles Sprites_7
+    21300016: Stone Tiles Sprites_8
+    21300018: Stone Tiles Sprites_9
+    21300020: Stone Tiles Sprites_10
+    21300022: Stone Tiles Sprites_11
+    21300024: Stone Tiles Sprites_12
+    21300026: Stone Tiles Sprites_13
+    21300028: Stone Tiles Sprites_14
+    21300030: Stone Tiles Sprites_15
+    21300032: Stone Tiles Sprites_16
+    21300034: Stone Tiles Sprites_17
+    21300036: Stone Tiles Sprites_18
+    21300038: Stone Tiles Sprites_19
+    21300040: Stone Tiles Sprites_20
+    21300042: Stone Tiles Sprites_21
+    21300044: Stone Tiles Sprites_22
+    21300046: Stone Tiles Sprites_23
+    21300048: Stone Tiles Sprites_24
+    21300050: Stone Tiles Sprites_25
+    21300052: Stone Tiles Sprites_26
+    21300054: Stone Tiles Sprites_27
+    21300056: Stone Tiles Sprites_28
+    21300058: Stone Tiles Sprites_29
+    21300060: Stone Tiles Sprites_30
+    21300062: Stone Tiles Sprites_31
+    21300064: Stone Tiles Sprites_32
+    21300066: Stone Tiles Sprites_33
+    21300068: Stone Tiles Sprites_34
+    21300070: Stone Tiles Sprites_35
+    21300072: Stone Tiles Sprites_36
+    21300074: Stone Tiles Sprites_37
+    21300076: Stone Tiles Sprites_38
+    21300078: Stone Tiles Sprites_39
+    21300080: Stone Tiles Sprites_40
+    21300082: Stone Tiles Sprites_41
+    21300084: Stone Tiles Sprites_42
+    21300086: Stone Tiles Sprites_43
+    21300088: Stone Tiles Sprites_44
+    21300090: Stone Tiles Sprites_45
+    21300092: Stone Tiles Sprites_46
+    21300094: Stone Tiles Sprites_47
+    21300096: Stone Tiles Sprites_48
+    21300098: Stone Tiles Sprites_49
+    21300100: Stone Tiles Sprites_50
+    21300102: Stone Tiles Sprites_51
+    21300104: Stone Tiles Sprites_52
+    21300106: Stone Tiles Sprites_53
+    21300108: Stone Tiles Sprites_54
+    21300110: Stone Tiles Sprites_55
+    21300112: Stone Tiles Sprites_56
+    21300114: Stone Tiles Sprites_57
+    21300116: Stone Tiles Sprites_58
+    21300118: Stone Tiles Sprites_59
+    21300120: Stone Tiles Sprites_60
+    21300122: Stone Tiles Sprites_61
+    21300124: Stone Tiles Sprites_62
+    21300126: Stone Tiles Sprites_63
+    21300128: Stone Tiles Sprites_64
+    21300130: Stone Tiles Sprites_65
+    21300132: Stone Tiles Sprites_66
+    21300134: Stone Tiles Sprites_67
+    21300136: Stone Tiles Sprites_68
+    21300138: Stone Tiles Sprites_69
+    21300140: Stone Tiles Sprites_70
+    21300142: Stone Tiles Sprites_71
+    21300144: Stone Tiles Sprites_72
+    21300146: Stone Tiles Sprites_73
+    21300148: Stone Tiles Sprites_74
+    21300150: Stone Tiles Sprites_75
+    21300152: Stone Tiles Sprites_76
+    21300154: Stone Tiles Sprites_77
+    21300156: Stone Tiles Sprites_78
+    21300158: Stone Tiles Sprites_79
+    21300160: Stone Tiles Sprites_80
+    21300162: Stone Tiles Sprites_81
+    21300164: Stone Tiles Sprites_82
+    21300166: Stone Tiles Sprites_83
+    21300168: Stone Tiles Sprites_84
+    21300170: Stone Tiles Sprites_85
+    21300172: Stone Tiles Sprites_86
+    21300174: Stone Tiles Sprites_87
+    21300176: Stone Tiles Sprites_88
+    21300178: Stone Tiles Sprites_89
+    21300180: Stone Tiles Sprites_90
+    21300182: Stone Tiles Sprites_91
+    21300184: Stone Tiles Sprites_92
+    21300186: Stone Tiles Sprites_93
+    21300188: Stone Tiles Sprites_94
+    21300190: Stone Tiles Sprites_95
+    21300192: Stone Tiles Sprites_96
+    21300194: Stone Tiles Sprites_97
+    21300196: Stone Tiles Sprites_98
+    21300198: Stone Tiles Sprites_99
+    21300200: Stone Tiles Sprites_100
+    21300202: Stone Tiles Sprites_101
+    21300204: Stone Tiles Sprites_102
+    21300206: Stone Tiles Sprites_103
+    21300208: Stone Tiles Sprites_104
+    21300210: Stone Tiles Sprites_105
+    21300212: Stone Tiles Sprites_106
+    21300214: Stone Tiles Sprites_107
+    21300216: Stone Tiles Sprites_108
+    21300218: Stone Tiles Sprites_109
+    21300220: Stone Tiles Sprites_110
+    21300222: Stone Tiles Sprites_111
+    21300224: Stone Tiles Sprites_112
+    21300226: Stone Tiles Sprites_113
+    21300228: Stone Tiles Sprites_114
+    21300230: Stone Tiles Sprites_115
+    21300232: Stone Tiles Sprites_116
+    21300234: Stone Tiles Sprites_117
+    21300236: Stone Tiles Sprites_118
+    21300238: Stone Tiles Sprites_119
+    21300240: Stone Tiles Sprites_120
+    21300242: Stone Tiles Sprites_121
+    21300244: Stone Tiles Sprites_122
+    21300246: Stone Tiles Sprites_123
+    21300248: Stone Tiles Sprites_124
+    21300250: Stone Tiles Sprites_125
+    21300252: Stone Tiles Sprites_126
+    21300254: Stone Tiles Sprites_127
+    21300256: Stone Tiles Sprites_128
+    21300258: Stone Tiles Sprites_129
+    21300260: Stone Tiles Sprites_130
+    21300262: Stone Tiles Sprites_131
+    21300264: Stone Tiles Sprites_132
+    21300266: Stone Tiles Sprites_133
+    21300268: Stone Tiles Sprites_134
+    21300270: Stone Tiles Sprites_135
+    21300272: Stone Tiles Sprites_136
+    21300274: Stone Tiles Sprites_137
+    21300276: Stone Tiles Sprites_138
+    21300278: Stone Tiles Sprites_139
+    21300280: Stone Tiles Sprites_140
+    21300282: Stone Tiles Sprites_141
+    21300284: Stone Tiles Sprites_142
+    21300286: Stone Tiles Sprites_143
+    21300288: Stone Tiles Sprites_144
+    21300290: Stone Tiles Sprites_145
+    21300292: Stone Tiles Sprites_146
+    21300294: Stone Tiles Sprites_147
+    21300296: Stone Tiles Sprites_148
+    21300298: Stone Tiles Sprites_149
+    21300300: Stone Tiles Sprites_150
+    21300302: Stone Tiles Sprites_151
+    21300304: Stone Tiles Sprites_152
+    21300306: Stone Tiles Sprites_153
+    21300308: Stone Tiles Sprites_154
+    21300310: Stone Tiles Sprites_155
+    21300312: Stone Tiles Sprites_156
+    21300314: Stone Tiles Sprites_157
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,7 +187,7 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -38,7 +196,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +207,1587 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Stone Tiles Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 284
+        width: 257
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 480
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 430
+        width: 96
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 427
+        width: 91
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 453
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 338
+        width: 64
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 445
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 446
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 449
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 455
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 452
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 476
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 477
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 419
+        width: 30
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 445
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 455
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 479
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 427
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 427
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 408
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 395
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 408
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 410
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 383
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 376
+        width: 30
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 378
+        width: 30
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 377
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 412
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 436
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 331
+        width: 96
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 358
+        width: 89
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 358
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 292
+        width: 39
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 304
+        width: 34
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 303
+        width: 33
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 375
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 361
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 378
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 383
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 335
+        width: 18
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 254
+        width: 82
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 254
+        width: 85
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 332
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 277
+        width: 28
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 338
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 340
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 315
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 287
+        width: 30
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 289
+        width: 30
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 275
+        width: 30
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 318
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 343
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 294
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 203
+        width: 94
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 277
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 277
+        width: 17
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 288
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 268
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 245
+        width: 41
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 314
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 244
+        width: 7
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 269
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 190
+        width: 37
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 274
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 232
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 276
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 282
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 286
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 208
+        width: 82
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 208
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 269
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 201
+        width: 32
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 189
+        width: 32
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 222
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 210
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 236
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 203
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 246
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 258
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 260
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 253
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 248
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 185
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 185
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 245
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 209
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 165
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 177
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 153
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 200
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_91
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 82
+        width: 53
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 82
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_93
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 116
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_94
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 116
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_95
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 51
+        width: 93
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_96
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 152
+        width: 69
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 43
+        width: 64
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_98
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 113
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_99
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 153
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_100
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 152
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_101
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 170
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_102
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 70
+        width: 32
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_103
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 134
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_104
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 120
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_105
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 104
+        width: 28
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_106
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 131
+        width: 25
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_107
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 58
+        width: 65
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_108
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 116
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_109
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 52
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_110
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 136
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_111
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 57
+        width: 31
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_112
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 84
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_113
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 86
+        width: 59
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_114
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 47
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_115
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 69
+        width: 7
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_116
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 65
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_117
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 36
+        width: 43
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_118
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 19
+        width: 32
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_119
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 39
+        width: 30
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_120
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 52
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_121
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 104
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_122
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 16
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_123
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 14
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_124
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 14
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_125
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 13
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_126
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 56
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_127
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 12
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_128
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 67
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_129
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 15
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_130
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 15
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_131
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 15
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_132
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 15
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_133
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 6
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_134
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 8
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_135
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 8
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_136
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 3
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_137
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 6
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_138
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 21
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_139
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 16
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_140
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_141
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 34
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_142
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 4
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_143
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 19
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_144
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 19
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_145
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 9
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_146
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 30
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_147
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 14
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_148
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 5
+        width: 4
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_149
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 3
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_150
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_151
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 6
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_152
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 2
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_153
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 2
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_154
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 2
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_155
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 2
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_156
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 2
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_157
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 2
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
