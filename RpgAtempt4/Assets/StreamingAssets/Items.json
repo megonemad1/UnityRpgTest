@@ -1,0 +1,118 @@
+[
+  {
+    "id": "bow",
+    "title": "Wooden Short Bow",
+    "discription": "A Simple Wooden Bow, its not verry powerful",
+    "value": -1,
+    "stackable": false,
+    "rarity": -1,
+    "types": ["weppon"],
+    "stats": {
+      "damage": 1,
+      "armorclass": 0,
+      "strength": 0,
+      "constitution": 0,
+      "dexterity": 0,
+      "intelligence": 0,
+      "wisdom": 0,
+      "charisma": 0
+    }
+  },
+
+  {
+    "id": "health_potion",
+    "title": "Health Potion",
+    "discription": "Heals 10 Health",
+    "value": 200,
+    "stackable": false,
+    "rarity": 1,
+    "types": ["Potion"],
+    "stats": {
+      "damage": 0,
+      "armorclass": 0,
+      "strength": 0,
+      "constitution": 10,
+      "dexterity": 0,
+      "intelligence": 0,
+      "wisdom": 0,
+      "charisma": 0
+    }
+  },
+  {
+    "id": "basic_poison",
+    "title": "Basic Poison",
+    "discription": "Deals 5 Poison Damage",
+    "value": 20,
+    "stackable": false,
+    "rarity": 1,
+    "types": ["potion","debuf"],
+    "stats": {
+      "damage": 0,
+      "armorclass": 0,
+      "strength": 0,
+      "constitution": -5,
+      "dexterity": 0,
+      "intelligence": 0,
+      "wisdom": 0,
+      "charisma": 0
+    }
+  },
+  {
+    "id": "coin_copper",
+    "title": "Copper Coin",
+    "discription": "A Copper Coin, The Lowest Form Of Currency",
+    "value": 1,
+    "stackable": true,
+    "rarity": 1,
+    "types": ["currency"],
+    "stats": {
+      "damage": 0,
+      "armorclass": 0,
+      "strength": 0,
+      "constitution": 0,
+      "dexterity": 0,
+      "intelligence": 0,
+      "wisdom": 0,
+      "charisma": 0
+    }
+  },
+  {
+    "id": "coin_silver",
+    "title": "Silver Coin",
+    "discription": "A Silver Coin, Worth 100 Copper Coins",
+    "value": 100,
+    "stackable": true,
+    "rarity": 1,
+    "types": ["currency"],
+    "stats": {
+      "damage": 0,
+      "armorclass": 0,
+      "strength": 0,
+      "constitution": 0,
+      "dexterity": 0,
+      "intelligence": 0,
+      "wisdom": 0,
+      "charisma": 0
+    }
+  },
+  {
+    "id": "coin_gold",
+    "title": "Gold Coin",
+    "discription": "A Gold Coin, Worth 100 Silver Coins",
+    "value": 1,
+    "stackable": true,
+    "rarity": 1,
+    "types": ["currency"],
+    "stats": {
+      "damage": 0,
+      "armorclass": 0,
+      "strength": 0,
+      "constitution": 0,
+      "dexterity": 0,
+      "intelligence": 0,
+      "wisdom": 0,
+      "charisma": 0
+    }
+  }
+
+]
