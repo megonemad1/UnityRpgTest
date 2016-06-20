@@ -49,6 +49,9 @@
      <Compile Include="Assets\Script\ExposeProperties.cs" />
      <Compile Include="Assets\Script\HandManager.cs" />
      <Compile Include="Assets\Script\InventoryManager.cs" />
+     <Compile Include="Assets\Script\InventoryManagerold.cs" />
+     <Compile Include="Assets\Script\ItemData.cs" />
+     <Compile Include="Assets\Script\ItemDataBase.cs" />
      <Compile Include="Assets\Script\Items\HealthPotion.cs" />
      <Compile Include="Assets\Script\Items\Item.cs" />
      <Compile Include="Assets\Script\LivingStatsManager.cs" />
@@ -62,15 +65,37 @@
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledInitialShaderProperties.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
+     <None Include="Assets\Resources\Sprites\Tiles\Roguelike Cave pack\License.txt" />
+     <None Include="Assets\Resources\Sprites\people\Roguelike Characters pack\Spritesheet\spritesheetInfo.txt" />
+     <None Include="Assets\Resources\Sprites\Tiles\Roguelike Cave pack\Spritesheet\spritesheetInfo.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDefault.shader" />
+     <None Include="Assets\Resources\Sprites\people\Roguelike Characters pack\License.txt" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
+     <None Include="Assets\Resources\Sprites\UI\PixelUIpack\License.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
+     <None Include="Assets\Resources\Sprites\Tiles\Roguelike pack\License.txt" />
      <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
+     <None Include="Assets\Resources\Sprites\UI\Kenney_gameIcons\Spritesheet\sheet_white2x.xml" />
      <None Include="Assets\Tiled2Unity\Imported\Lava2.tiled2unity.xml" />
+     <None Include="Assets\Resources\Sprites\UI\Game icons (expansion)\license.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDepth.shader" />
+     <None Include="Assets\Resources\Sprites\Tiles\Roguelike Indoor pack\Spritesheet\spritesheetInfo.txt" />
+     <None Include="Assets\Resources\Sprites\Props\kenney_runepack\License.txt" />
+     <None Include="Assets\Resources\Sprites\Tiles\Roguelike Modern City pack\License.txt" />
+     <None Include="Assets\Resources\Sprites\Tiles\Roguelike Indoor pack\License.txt" />
+     <None Include="Assets\Resources\Sprites\Tiles\Roguelike Modern City pack\Spritesheet\spritesheetInfo.txt" />
+     <None Include="Assets\Resources\Sprites\UI\UIpack_RPG\license.txt" />
+     <None Include="Assets\Resources\Sprites\UI\Kenney_gameIcons\Spritesheet\sheet_black1x.xml" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Imported\Lava2rock.tiled2unity.xml" />
+     <None Include="Assets\Resources\Sprites\UI\Kenney_gameIcons\Spritesheet\sheet_white1x.xml" />
      <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
+     <None Include="Assets\Resources\Sprites\UI\Kenney_gameIcons\Spritesheet\sheet_black2x.xml" />
+     <None Include="Assets\Resources\Sprites\UI\UIpack\license.txt" />
+     <None Include="Assets\Resources\Sprites\UI\Icon assets (fighter)\license.txt" />
+     <None Include="Assets\Resources\Sprites\UI\Kenney_gameIcons\license.txt" />
+     <None Include="Assets\Resources\Sprites\Tiles\Roguelike pack\Spritesheet\spritesheetInfo.txt" />
+     <None Include="Assets\Resources\Sprites\ken_fonts\license.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaColorKey.shader" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey.shader" />
      <None Include="Assets\Tiled2Unity\License.txt" />
@@ -81,6 +106,9 @@
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>H:/unity/UnityRpgTest/RpgAtempt4/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

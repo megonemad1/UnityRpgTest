@@ -20,3 +20,4 @@ H:\unity\UnityRpgTest\RpgAtempt4\Temp\bin\Debug\UnityEngine.Networking.xml
 H:\unity\UnityRpgTest\RpgAtempt4\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 H:\unity\UnityRpgTest\RpgAtempt4\obj\Debug\Assembly-CSharp.dll
 H:\unity\UnityRpgTest\RpgAtempt4\obj\Debug\Assembly-CSharp.pdb
+H:\unity\UnityRpgTest\RpgAtempt4\Temp\bin\Debug\LitJson.dll

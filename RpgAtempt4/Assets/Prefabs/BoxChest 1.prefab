@@ -72,6 +72,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1cd8fa90cdcf3d498c17c6a75a04e09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ItemType: {fileID: 186976, guid: 34c75a051e861e54caa76a19d8cbb3e9, type: 2}
+  item: coin_copper
+  amount: 50
 --- !u!212 &21212548
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -104,7 +107,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: ItemType
+      value: 
+      objectReference: {fileID: 186976, guid: 34c75a051e861e54caa76a19d8cbb3e9, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 198728}

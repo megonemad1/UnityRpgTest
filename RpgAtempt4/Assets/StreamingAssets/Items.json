@@ -8,14 +8,14 @@
     "rarity": -1,
     "types": ["weppon"],
     "stats": {
-      "damage": 1,
-      "armorclass": 0,
-      "strength": 0,
-      "constitution": 0,
-      "dexterity": 0,
-      "intelligence": 0,
-      "wisdom": 0,
-      "charisma": 0
+      "damage": 1.0,
+      "armorclass": 0.0,
+      "strength": 0.0,
+      "constitution": 0.0,
+      "dexterity": 0.0,
+      "intelligence": 0.0,
+      "wisdom": 0.0,
+      "charisma": 0.0
     }
   },
 
@@ -28,14 +28,14 @@
     "rarity": 1,
     "types": ["Potion"],
     "stats": {
-      "damage": 0,
-      "armorclass": 0,
-      "strength": 0,
-      "constitution": 10,
-      "dexterity": 0,
-      "intelligence": 0,
-      "wisdom": 0,
-      "charisma": 0
+      "damage": 0.0,
+      "armorclass": 0.0,
+      "strength": 0.0,
+      "constitution": 10.0,
+      "dexterity": 0.0,
+      "intelligence": 0.0,
+      "wisdom": 0.0,
+      "charisma": 0.0
     }
   },
   {
@@ -47,14 +47,14 @@
     "rarity": 1,
     "types": ["potion","debuf"],
     "stats": {
-      "damage": 0,
-      "armorclass": 0,
-      "strength": 0,
-      "constitution": -5,
-      "dexterity": 0,
-      "intelligence": 0,
-      "wisdom": 0,
-      "charisma": 0
+      "damage": 0.0,
+      "armorclass": 0.0,
+      "strength": 0.0,
+      "constitution": -5.0,
+      "dexterity": 0.0,
+      "intelligence": 0.0,
+      "wisdom": 0.0,
+      "charisma": 0.0
     }
   },
   {
@@ -66,14 +66,14 @@
     "rarity": 1,
     "types": ["currency"],
     "stats": {
-      "damage": 0,
-      "armorclass": 0,
-      "strength": 0,
-      "constitution": 0,
-      "dexterity": 0,
-      "intelligence": 0,
-      "wisdom": 0,
-      "charisma": 0
+      "damage": 0.0,
+      "armorclass": 0.0,
+      "strength": 0.0,
+      "constitution": 0.0,
+      "dexterity": 0.0,
+      "intelligence": 0.0,
+      "wisdom": 0.0,
+      "charisma": 0.0
     }
   },
   {
@@ -85,14 +85,14 @@
     "rarity": 1,
     "types": ["currency"],
     "stats": {
-      "damage": 0,
-      "armorclass": 0,
-      "strength": 0,
-      "constitution": 0,
-      "dexterity": 0,
-      "intelligence": 0,
-      "wisdom": 0,
-      "charisma": 0
+      "damage": 0.0,
+      "armorclass": 0.0,
+      "strength": 0.0,
+      "constitution": 0.0,
+      "dexterity": 0.0,
+      "intelligence": 0.0,
+      "wisdom": 0.0,
+      "charisma": 0.0
     }
   },
   {
@@ -104,14 +104,14 @@
     "rarity": 1,
     "types": ["currency"],
     "stats": {
-      "damage": 0,
-      "armorclass": 0,
-      "strength": 0,
-      "constitution": 0,
-      "dexterity": 0,
-      "intelligence": 0,
-      "wisdom": 0,
-      "charisma": 0
+      "damage": 0.0,
+      "armorclass": 0.0,
+      "strength": 0.0,
+      "constitution": 0.0,
+      "dexterity": 0.0,
+      "intelligence": 0.0,
+      "wisdom": 0.0,
+      "charisma": 0.0
     }
   }
 

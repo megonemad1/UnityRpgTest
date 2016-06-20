@@ -14,9 +14,9 @@ GameObject:
   - 58: {fileID: 5809814}
   - 114: {fileID: 11499892}
   - 114: {fileID: 11447442}
-  - 114: {fileID: 11418804}
   - 114: {fileID: 11493088}
-  - 114: {fileID: 11472738}
+  - 114: {fileID: 11426332}
+  - 114: {fileID: 11439338}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -110,7 +110,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11418804
+--- !u!114 &11426332
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -118,13 +118,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 131322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a82e2af471b85d848a4bb1d3387fe7fd, type: 3}
+  m_Script: {fileID: 11500000, guid: 71f1f0b83874f58428fe6a94176c8b55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InventoryWidth: 9
-  InventoryHight: 6
-  inventory: []
-  selected_item: 0
+  InventoryPanel: {fileID: 0}
+  InventorySlot: {fileID: 150314, guid: 9ac02d459aea12249a662899b76e7720, type: 2}
+  InventoryItem: {fileID: 122260, guid: ec653937bd53b2e4b962b4d77dad3b9d, type: 2}
+  slots: []
+  SlotAmount: 54
+--- !u!114 &11439338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc268d44030d3584d93ea2bee9c64271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11447442
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -137,18 +149,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerReach: .200000003
---- !u!114 &11472738
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 131322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b0dbf1a709261e44873e2a8802d243b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handPosition: {fileID: 437464}
 --- !u!114 &11493088
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System;
 
-public abstract class Item : MonoBehaviour
+public abstract class oldItem : MonoBehaviour
 {
 
 

@@ -1,145 +1,130 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
-using System;
-using UnityEditor;
+using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
 
-    HandManager hand;
-    public int InventoryWidth = 9;
-    public int InventoryHight = 6;
-    public Item[] inventory;
-    [HideInInspector]
-    [SerializeField]
-    int selected_item;
-    [ExposeProperty]
-    public int SelectedItem
-    {
-        get
-        {
-            return selected_item;
-        }
-        set
-        {
-
-            if (value < InventoryHight * InventoryWidth && value >= -1)
-            {
-                selected_item = value;
-            }
-
-            else
-            {
-                Debug.Log("invalid inventory slot: " + value);
-                selected_item = -1;
-            }
-
-        }
-    }
-    public Item[] GetAllItemsOfType(ItemType itemtype)
-    {
-
-        return Array.FindAll(inventory, (Item item) => { return item.GetItemTypes().Contains(itemtype); });
-    }
-    public bool addItem(Item item)
-    {
-        int index = Array.FindIndex(inventory, (Item i) => { return i == null; });
-        if (index > -1)
-        {
-            SetInventoryPosition(index, item);
-            return true;
-        }
-        return false;
-    }
-    public Item GetSelected()
-    {
-        if (selected_item > -1)
-            return GetInventoryPosition(selected_item);
-        else
-            return null;
-    }
-
-    public InventoryManager SwapItems(int InventorySlotA, int InventorySlotB)
-    {
-        Item tempA = GetInventoryPosition(InventorySlotA);
-        Item tempB = GetInventoryPosition(InventorySlotB);
-
-        SetInventoryPosition(InventorySlotA, tempB);
-        SetInventoryPosition(InventorySlotB, tempA);
-        return this;
-    }
-    public InventoryManager SetInventoryPosition(int InventorySlotX, int InventorySlotY, Item item)
-    {
-
-        return SetInventoryPosition(InventorySlotX * InventoryWidth + InventorySlotY, item);
-    }
-    public InventoryManager SetInventoryPosition(int InventorySlot, Item item)
-    {
-        if (InventorySlot < inventory.Length && InventorySlot >= 0)
-        {
-            inventory[InventorySlot] = item;
-        }
-        else
-        {
-            Debug.Log("invalid set inventory slot: " + InventorySlot + "on item " + item);
-        }
-        return this;
-    }
-    public Item GetInventoryPosition(int InventorySlotX, int InventorySlotY)
-    {
-        return GetInventoryPosition(InventorySlotX * InventoryWidth + InventorySlotY);
-    }
-    public Item GetInventoryPosition(int InventorySlot)
-    {
-        if (InventorySlot < inventory.Length && InventorySlot >= 0)
-        {
-            return inventory[InventorySlot];
-        }
-        else
-        {
-            Debug.Log("invalid set inventory slot: " + InventorySlot);
-            return null;
-        }
-    }
+    public GameObject InventoryPanel, InventorySlot, InventoryItem;
+    GameObject SlotPanel;
+    ItemDataBase itemdatabase;
+    public List<Item> items = new List<Item>();
+    public List<GameObject> slots = new List<GameObject>();
+    public int SlotAmount = 54;
     // Use this for initialization
     void Start()
     {
-        inventory = new Item[InventoryWidth * InventoryHight];
-        SelectedItem = -1;
 
-        hand = GetComponent<HandManager>();
+        SlotPanel = InventoryPanel.transform.FindChild("Slot Panel").gameObject;
+        itemdatabase = GetComponent<ItemDataBase>();
+        for (int i = 0; i < SlotAmount; i++)
+        {
+            GameObject invslot = Instantiate(InventorySlot);
+            Item item = new Item();
+            items.Add(item);
+            slots.Add(invslot);
+            invslot.name = "slot" + i;
+            invslot.transform.SetParent(SlotPanel.transform);
+
+
+        }
+        for (int i = 0; i < 53; i ++)
+        AddItem("bow");
+
+    }
+    public bool AddItem(string id)
+    {
+        return AddItem(id, 1);
+    }
+    public bool AddItem(string id, int SlotAmountToAdd)
+    {
+
+        Item item = itemdatabase.getItemByID(id);
+        if (item.stackable)
+        {
+            int prexsistingindex = items.FindIndex((Item i) => { return i.id == item.id; });
+            if (prexsistingindex > -1)
+            {
+                ItemData data = slots[prexsistingindex].transform.GetChild(0).GetComponent<ItemData>();
+                data.amount += SlotAmountToAdd;
+                Text StackAmoutText = data.transform.GetChild(0).GetComponent<Text>();
+                StackAmoutText.text = (data.amount > 1) ? data.amount.ToString() : "";
+                return true;
+            }
+        }
+        int index = items.FindIndex((Item i) => { return i.id == ""; });
+        if (index > -1)
+        {
+            items[index] = item;
+           
+            GameObject itemObj = Instantiate(InventoryItem);
+            ItemData data = itemObj.GetComponent<ItemData>();
+            data.amount += SlotAmountToAdd;
+            Text StackAmoutText = data.transform.GetChild(0).GetComponent<Text>();
+            StackAmoutText.text = (data.amount>1)?data.amount.ToString():"";
+            itemObj.transform.SetParent(slots[index].transform);
+            itemObj.transform.position = Vector2.zero;
+            itemObj.GetComponent<Image>().sprite = item.sprite;
+            itemObj.GetComponent<ItemData>().amount = SlotAmountToAdd;
+
+            itemObj.name = item.title;
+            return true;
+        }
+        else
+            return false;
+    }
+    public bool RemoveItemById(string id)
+    {
+        return RemoveItemById(id, 1);
+    }
+    public bool RemoveItemById(string id, int ItemAmountToRemove)
+    {
+        int index = items.FindIndex((Item i) => { return i.id == id; });
+        return RemoveItemByIndex(index, ItemAmountToRemove);
+    }
+    public bool RemoveItemByIndex(int index)
+    {
+       return RemoveItemByIndex(index, 1);
+    }
+        bool RemoveItemByIndex(int index, int ItemAmountToRemove)
+    {
+        if (index > -1)
+        {
+            if (items[index].stackable)
+            {
+                ItemData data = slots[index].transform.GetChild(0).GetComponent<ItemData>();
+                data.amount -= ItemAmountToRemove;
+                if (data.amount > 0)
+                {
+                    Text StackAmoutText = data.transform.GetChild(0).GetComponent<Text>();
+                    StackAmoutText.text = data.amount.ToString();
+                    return true;
+                }
+            }
+            GameObject item = slots[index].transform.GetChild(0).gameObject;
+            slots[index].transform.DetachChildren();
+            Destroy(item);
+            items[index] = new Item();
+
+        }
+        return false;
+    }
+    public void SwapItems(int indexa, int indexb)
+    {
+        GameObject slota = slots[indexa];
+        GameObject slotb = slots[indexb];
+        GameObject itemObja = slota.transform.GetChild(0).gameObject;
+        GameObject itemObjb = slotb.transform.GetChild(0).gameObject;
+        itemObja.transform.SetParent(slotb.transform);
+        itemObjb.transform.SetParent(slota.transform);
+        Item itemb = items[indexb];
+        items[indexb] = items[indexa];
+        items[indexa] = itemb;
     }
 
     // Update is called once per frame
     void Update()
     {
-
-    }
-}
-[CustomEditor(typeof(InventoryManager))]
-public class InventoryManagerEditor : Editor
-{
-
-
-    InventoryManager m_Instance;
-    PropertyField[] m_fields;
-
-
-    public void OnEnable()
-    {
-        m_Instance = target as InventoryManager;
-        m_fields = ExposeProperties.GetProperties(m_Instance);
-    }
-
-    public override void OnInspectorGUI()
-    {
-
-        if (m_Instance == null)
-            return;
-
-        this.DrawDefaultInspector();
-
-        ExposeProperties.Expose(m_fields);
 
     }
 }

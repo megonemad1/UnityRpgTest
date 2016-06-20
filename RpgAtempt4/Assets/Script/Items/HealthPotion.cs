@@ -3,7 +3,7 @@ using System.Collections;
 using System;
 using System.Collections.Generic;
 
-public class HealthPotion : Item {
+public class HealthPotion : oldItem {
     public List<ItemType> ItemTypes;
     public override List<ItemType> GetItemTypes()
     {

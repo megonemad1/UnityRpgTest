@@ -19,11 +19,12 @@ public class PlayerActions : MonoBehaviour
     void Update()
     {
 
-        InventoryManager inventory = GetComponent<InventoryManager>();
+        InventoryManagerold inventory = GetComponent<InventoryManagerold>();
         for (int i = 0; i < 9; i++)
         {
             if (Input.GetAxisRaw((i + 1) + "Select") == 1)
-                inventory.SelectedItem = i;
+                Debug.Log((i + 1) + " Down");
+               // inventory.SelectedItem = i;
         }
 
 
@@ -44,20 +45,20 @@ public class PlayerActions : MonoBehaviour
 
 
             }
-            else
-            {
-                Debug.Log("Inventory Found");
-                if (inventory)
-                {
+            //else
+            //{
+            //    Debug.Log("Inventory Found");
+            //    if (inventory)
+            //    {
                     
-                    Item selected = inventory.GetSelected();
-                    if (selected && selected.GetItemTypes().Contains(ItemType.useable))
-                    {Debug.Log("using an item");
-                        selected.UseItem(this.gameObject);
-                    }
+            //        Item selected = inventory.GetSelected();
+            //        if (selected && selected.GetItemTypes().Contains(ItemType.useable))
+            //        {Debug.Log("using an item");
+            //            selected.UseItem(this.gameObject);
+            //        }
 
-                }
-            }
+            //    }
+            //}
 
         }
 
