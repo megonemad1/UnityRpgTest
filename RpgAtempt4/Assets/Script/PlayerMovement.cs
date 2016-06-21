@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
     LivingStatsManager stats;
     Rigidbody2D rbody;
     Animator anim;
+
     public Vector2 Facing
     {
         get
@@ -43,7 +44,6 @@ public class PlayerMovement : MonoBehaviour
         }
         anim.SetBool("Is_Walking", moving);
         rbody.MovePosition(rbody.position + movement*Speed * Time.deltaTime);
-
-
+        
     }
 }

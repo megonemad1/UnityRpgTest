@@ -11,6 +11,7 @@ GameObject:
   - 222: {fileID: 22219022}
   - 114: {fileID: 11407424}
   - 114: {fileID: 11487234}
+  - 225: {fileID: 22565680}
   m_Layer: 5
   m_Name: Item
   m_TagString: Untagged
@@ -120,6 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ec20cf443c2f5448af2e1a91836fce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slotposition: 0
   amount: 0
 --- !u!222 &22219022
 CanvasRenderer:
@@ -168,13 +170,28 @@ RectTransform:
   m_AnchoredPosition: {x: -4.69999981, y: 1.5}
   m_SizeDelta: {x: 28.5, y: 22.2999992}
   m_Pivot: {x: .5, y: .5}
+--- !u!225 &22565680
+CanvasGroup:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122260}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_IgnoreLayout
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 122260}

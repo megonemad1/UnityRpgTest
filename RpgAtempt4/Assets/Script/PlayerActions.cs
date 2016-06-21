@@ -7,12 +7,16 @@ public class PlayerActions : MonoBehaviour
     CircleCollider2D colideroffset;
     Transform player;
     public float PlayerReach;
+    InventoryManager inventoryManager;
+    public int cooldown = 0;
+    public int CoolDownStep = 10;
     // Use this for initialization
     void Start()
     {
         movementControler = GetComponent<PlayerMovement>();
         player = GetComponent<Transform>();
         colideroffset = GetComponent<CircleCollider2D>();
+        inventoryManager = GetComponent<InventoryManager>();
     }
 
     // Update is called once per frame
@@ -24,7 +28,7 @@ public class PlayerActions : MonoBehaviour
         {
             if (Input.GetAxisRaw((i + 1) + "Select") == 1)
                 Debug.Log((i + 1) + " Down");
-               // inventory.SelectedItem = i;
+            // inventory.SelectedItem = i;
         }
 
 
@@ -45,22 +49,25 @@ public class PlayerActions : MonoBehaviour
 
 
             }
-            //else
-            //{
-            //    Debug.Log("Inventory Found");
-            //    if (inventory)
-            //    {
-                    
-            //        Item selected = inventory.GetSelected();
-            //        if (selected && selected.GetItemTypes().Contains(ItemType.useable))
-            //        {Debug.Log("using an item");
-            //            selected.UseItem(this.gameObject);
-            //        }
-
-            //    }
-            //}
 
         }
+        if (Input.GetAxisRaw("") == 1)
+        {
+
+        }
+        if (Input.GetAxisRaw("Cancel") == 1 && cooldown <= 0)
+        {
+            cooldown = CoolDownStep;
+            inventoryManager.InventoryPanel.SetActive(false);
+        }
+        if (Input.GetAxisRaw("Inventory") == 1 && cooldown <= 0)
+        {
+            cooldown = CoolDownStep;
+            inventoryManager.InventoryPanel.SetActive(!inventoryManager.InventoryPanel.activeSelf);
+        }
+        if (cooldown > 0)
+            cooldown--;
+
 
     }
 }

@@ -50,11 +50,14 @@
      <Compile Include="Assets\Script\HandManager.cs" />
      <Compile Include="Assets\Script\InventoryManager.cs" />
      <Compile Include="Assets\Script\InventoryManagerold.cs" />
+     <Compile Include="Assets\Script\InventorySlotData.cs" />
+     <Compile Include="Assets\Script\InventoryUiManager.cs" />
      <Compile Include="Assets\Script\ItemData.cs" />
      <Compile Include="Assets\Script\ItemDataBase.cs" />
      <Compile Include="Assets\Script\Items\HealthPotion.cs" />
      <Compile Include="Assets\Script\Items\Item.cs" />
      <Compile Include="Assets\Script\LivingStatsManager.cs" />
+     <Compile Include="Assets\Script\MoveInventory.cs" />
      <Compile Include="Assets\Script\OpenChest.cs" />
      <Compile Include="Assets\Script\PlayerActions.cs" />
      <Compile Include="Assets\Script\PlayerMovement.cs" />

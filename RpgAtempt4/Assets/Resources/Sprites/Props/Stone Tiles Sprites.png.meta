@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6fe6016e31ddb8a4abbea636a91bb75d
-timeCreated: 1466188917
+timeCreated: 1466534034
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -162,6 +162,390 @@ TextureImporter:
     21300310: Stone Tiles Sprites_155
     21300312: Stone Tiles Sprites_156
     21300314: Stone Tiles Sprites_157
+    21300316: Stone Tiles Sprites_158
+    21300318: Stone Tiles Sprites_159
+    21300320: Stone Tiles Sprites_160
+    21300322: Stone Tiles Sprites_161
+    21300324: Stone Tiles Sprites_162
+    21300326: Stone Tiles Sprites_163
+    21300328: Stone Tiles Sprites_164
+    21300330: Stone Tiles Sprites_165
+    21300332: Stone Tiles Sprites_166
+    21300334: Stone Tiles Sprites_167
+    21300336: Stone Tiles Sprites_168
+    21300338: Stone Tiles Sprites_169
+    21300340: Stone Tiles Sprites_170
+    21300342: Stone Tiles Sprites_171
+    21300344: Stone Tiles Sprites_172
+    21300346: Stone Tiles Sprites_173
+    21300348: Stone Tiles Sprites_174
+    21300350: Stone Tiles Sprites_175
+    21300352: Stone Tiles Sprites_176
+    21300354: Stone Tiles Sprites_177
+    21300356: Stone Tiles Sprites_178
+    21300358: Stone Tiles Sprites_179
+    21300360: Stone Tiles Sprites_180
+    21300362: Stone Tiles Sprites_181
+    21300364: Stone Tiles Sprites_182
+    21300366: Stone Tiles Sprites_183
+    21300368: Stone Tiles Sprites_184
+    21300370: Stone Tiles Sprites_185
+    21300372: Stone Tiles Sprites_186
+    21300374: Stone Tiles Sprites_187
+    21300376: Stone Tiles Sprites_188
+    21300378: Stone Tiles Sprites_189
+    21300380: Stone Tiles Sprites_190
+    21300382: Stone Tiles Sprites_191
+    21300384: Stone Tiles Sprites_192
+    21300386: Stone Tiles Sprites_193
+    21300388: Stone Tiles Sprites_194
+    21300390: Stone Tiles Sprites_195
+    21300392: Stone Tiles Sprites_196
+    21300394: Stone Tiles Sprites_197
+    21300396: Stone Tiles Sprites_198
+    21300398: Stone Tiles Sprites_199
+    21300400: Stone Tiles Sprites_200
+    21300402: Stone Tiles Sprites_201
+    21300404: Stone Tiles Sprites_202
+    21300406: Stone Tiles Sprites_203
+    21300408: Stone Tiles Sprites_204
+    21300410: Stone Tiles Sprites_205
+    21300412: Stone Tiles Sprites_206
+    21300414: Stone Tiles Sprites_207
+    21300416: Stone Tiles Sprites_208
+    21300418: Stone Tiles Sprites_209
+    21300420: Stone Tiles Sprites_210
+    21300422: Stone Tiles Sprites_211
+    21300424: Stone Tiles Sprites_212
+    21300426: Stone Tiles Sprites_213
+    21300428: Stone Tiles Sprites_214
+    21300430: Stone Tiles Sprites_215
+    21300432: Stone Tiles Sprites_216
+    21300434: Stone Tiles Sprites_217
+    21300436: Stone Tiles Sprites_218
+    21300438: Stone Tiles Sprites_219
+    21300440: Stone Tiles Sprites_220
+    21300442: Stone Tiles Sprites_221
+    21300444: Stone Tiles Sprites_222
+    21300446: Stone Tiles Sprites_223
+    21300448: Stone Tiles Sprites_224
+    21300450: Stone Tiles Sprites_225
+    21300452: Stone Tiles Sprites_226
+    21300454: Stone Tiles Sprites_227
+    21300456: Stone Tiles Sprites_228
+    21300458: Stone Tiles Sprites_229
+    21300460: Stone Tiles Sprites_230
+    21300462: Stone Tiles Sprites_231
+    21300464: Stone Tiles Sprites_232
+    21300466: Stone Tiles Sprites_233
+    21300468: Stone Tiles Sprites_234
+    21300470: Stone Tiles Sprites_235
+    21300472: Stone Tiles Sprites_236
+    21300474: Stone Tiles Sprites_237
+    21300476: Stone Tiles Sprites_238
+    21300478: Stone Tiles Sprites_239
+    21300480: Stone Tiles Sprites_240
+    21300482: Stone Tiles Sprites_241
+    21300484: Stone Tiles Sprites_242
+    21300486: Stone Tiles Sprites_243
+    21300488: Stone Tiles Sprites_244
+    21300490: Stone Tiles Sprites_245
+    21300492: Stone Tiles Sprites_246
+    21300494: Stone Tiles Sprites_247
+    21300496: Stone Tiles Sprites_248
+    21300498: Stone Tiles Sprites_249
+    21300500: Stone Tiles Sprites_250
+    21300502: Stone Tiles Sprites_251
+    21300504: Stone Tiles Sprites_252
+    21300506: Stone Tiles Sprites_253
+    21300508: Stone Tiles Sprites_254
+    21300510: Stone Tiles Sprites_255
+    21300512: Stone Tiles Sprites_256
+    21300514: Stone Tiles Sprites_257
+    21300516: Stone Tiles Sprites_258
+    21300518: Stone Tiles Sprites_259
+    21300520: Stone Tiles Sprites_260
+    21300522: Stone Tiles Sprites_261
+    21300524: Stone Tiles Sprites_262
+    21300526: Stone Tiles Sprites_263
+    21300528: Stone Tiles Sprites_264
+    21300530: Stone Tiles Sprites_265
+    21300532: Stone Tiles Sprites_266
+    21300534: Stone Tiles Sprites_267
+    21300536: Stone Tiles Sprites_268
+    21300538: Stone Tiles Sprites_269
+    21300540: Stone Tiles Sprites_270
+    21300542: Stone Tiles Sprites_271
+    21300544: Stone Tiles Sprites_272
+    21300546: Stone Tiles Sprites_273
+    21300548: Stone Tiles Sprites_274
+    21300550: Stone Tiles Sprites_275
+    21300552: Stone Tiles Sprites_276
+    21300554: Stone Tiles Sprites_277
+    21300556: Stone Tiles Sprites_278
+    21300558: Stone Tiles Sprites_279
+    21300560: Stone Tiles Sprites_280
+    21300562: Stone Tiles Sprites_281
+    21300564: Stone Tiles Sprites_282
+    21300566: Stone Tiles Sprites_283
+    21300568: Stone Tiles Sprites_284
+    21300570: Stone Tiles Sprites_285
+    21300572: Stone Tiles Sprites_286
+    21300574: Stone Tiles Sprites_287
+    21300576: Stone Tiles Sprites_288
+    21300578: Stone Tiles Sprites_289
+    21300580: Stone Tiles Sprites_290
+    21300582: Stone Tiles Sprites_291
+    21300584: Stone Tiles Sprites_292
+    21300586: Stone Tiles Sprites_293
+    21300588: Stone Tiles Sprites_294
+    21300590: Stone Tiles Sprites_295
+    21300592: Stone Tiles Sprites_296
+    21300594: Stone Tiles Sprites_297
+    21300596: Stone Tiles Sprites_298
+    21300598: Stone Tiles Sprites_299
+    21300600: Stone Tiles Sprites_300
+    21300602: Stone Tiles Sprites_301
+    21300604: Stone Tiles Sprites_302
+    21300606: Stone Tiles Sprites_303
+    21300608: Stone Tiles Sprites_304
+    21300610: Stone Tiles Sprites_305
+    21300612: Stone Tiles Sprites_306
+    21300614: Stone Tiles Sprites_307
+    21300616: Stone Tiles Sprites_308
+    21300618: Stone Tiles Sprites_309
+    21300620: Stone Tiles Sprites_310
+    21300622: Stone Tiles Sprites_311
+    21300624: Stone Tiles Sprites_312
+    21300626: Stone Tiles Sprites_313
+    21300628: Stone Tiles Sprites_314
+    21300630: Stone Tiles Sprites_315
+    21300632: Stone Tiles Sprites_316
+    21300634: Stone Tiles Sprites_317
+    21300636: Stone Tiles Sprites_318
+    21300638: Stone Tiles Sprites_319
+    21300640: Stone Tiles Sprites_320
+    21300642: Stone Tiles Sprites_321
+    21300644: Stone Tiles Sprites_322
+    21300646: Stone Tiles Sprites_323
+    21300648: Stone Tiles Sprites_324
+    21300650: Stone Tiles Sprites_325
+    21300652: Stone Tiles Sprites_326
+    21300654: Stone Tiles Sprites_327
+    21300656: Stone Tiles Sprites_328
+    21300658: Stone Tiles Sprites_329
+    21300660: Stone Tiles Sprites_330
+    21300662: Stone Tiles Sprites_331
+    21300664: Stone Tiles Sprites_332
+    21300666: Stone Tiles Sprites_333
+    21300668: Stone Tiles Sprites_334
+    21300670: Stone Tiles Sprites_335
+    21300672: Stone Tiles Sprites_336
+    21300674: Stone Tiles Sprites_337
+    21300676: Stone Tiles Sprites_338
+    21300678: Stone Tiles Sprites_339
+    21300680: Stone Tiles Sprites_340
+    21300682: Stone Tiles Sprites_341
+    21300684: Stone Tiles Sprites_342
+    21300686: Stone Tiles Sprites_343
+    21300688: Stone Tiles Sprites_344
+    21300690: Stone Tiles Sprites_345
+    21300692: Stone Tiles Sprites_346
+    21300694: Stone Tiles Sprites_347
+    21300696: Stone Tiles Sprites_348
+    21300698: Stone Tiles Sprites_349
+    21300700: Stone Tiles Sprites_350
+    21300702: Stone Tiles Sprites_351
+    21300704: Stone Tiles Sprites_352
+    21300706: Stone Tiles Sprites_353
+    21300708: Stone Tiles Sprites_354
+    21300710: Stone Tiles Sprites_355
+    21300712: Stone Tiles Sprites_356
+    21300714: Stone Tiles Sprites_357
+    21300716: Stone Tiles Sprites_358
+    21300718: Stone Tiles Sprites_359
+    21300720: Stone Tiles Sprites_360
+    21300722: Stone Tiles Sprites_361
+    21300724: Stone Tiles Sprites_362
+    21300726: Stone Tiles Sprites_363
+    21300728: Stone Tiles Sprites_364
+    21300730: Stone Tiles Sprites_365
+    21300732: Stone Tiles Sprites_366
+    21300734: Stone Tiles Sprites_367
+    21300736: Stone Tiles Sprites_368
+    21300738: Stone Tiles Sprites_369
+    21300740: Stone Tiles Sprites_370
+    21300742: Stone Tiles Sprites_371
+    21300744: Stone Tiles Sprites_372
+    21300746: Stone Tiles Sprites_373
+    21300748: Stone Tiles Sprites_374
+    21300750: Stone Tiles Sprites_375
+    21300752: Stone Tiles Sprites_376
+    21300754: Stone Tiles Sprites_377
+    21300756: Stone Tiles Sprites_378
+    21300758: Stone Tiles Sprites_379
+    21300760: Stone Tiles Sprites_380
+    21300762: Stone Tiles Sprites_381
+    21300764: Stone Tiles Sprites_382
+    21300766: Stone Tiles Sprites_383
+    21300768: Stone Tiles Sprites_384
+    21300770: Stone Tiles Sprites_385
+    21300772: Stone Tiles Sprites_386
+    21300774: Stone Tiles Sprites_387
+    21300776: Stone Tiles Sprites_388
+    21300778: Stone Tiles Sprites_389
+    21300780: Stone Tiles Sprites_390
+    21300782: Stone Tiles Sprites_391
+    21300784: Stone Tiles Sprites_392
+    21300786: Stone Tiles Sprites_393
+    21300788: Stone Tiles Sprites_394
+    21300790: Stone Tiles Sprites_395
+    21300792: Stone Tiles Sprites_396
+    21300794: Stone Tiles Sprites_397
+    21300796: Stone Tiles Sprites_398
+    21300798: Stone Tiles Sprites_399
+    21300800: Stone Tiles Sprites_400
+    21300802: Stone Tiles Sprites_401
+    21300804: Stone Tiles Sprites_402
+    21300806: Stone Tiles Sprites_403
+    21300808: Stone Tiles Sprites_404
+    21300810: Stone Tiles Sprites_405
+    21300812: Stone Tiles Sprites_406
+    21300814: Stone Tiles Sprites_407
+    21300816: Stone Tiles Sprites_408
+    21300818: Stone Tiles Sprites_409
+    21300820: Stone Tiles Sprites_410
+    21300822: Stone Tiles Sprites_411
+    21300824: Stone Tiles Sprites_412
+    21300826: Stone Tiles Sprites_413
+    21300828: Stone Tiles Sprites_414
+    21300830: Stone Tiles Sprites_415
+    21300832: Stone Tiles Sprites_416
+    21300834: Stone Tiles Sprites_417
+    21300836: Stone Tiles Sprites_418
+    21300838: Stone Tiles Sprites_419
+    21300840: Stone Tiles Sprites_420
+    21300842: Stone Tiles Sprites_421
+    21300844: Stone Tiles Sprites_422
+    21300846: Stone Tiles Sprites_423
+    21300848: Stone Tiles Sprites_424
+    21300850: Stone Tiles Sprites_425
+    21300852: Stone Tiles Sprites_426
+    21300854: Stone Tiles Sprites_427
+    21300856: Stone Tiles Sprites_428
+    21300858: Stone Tiles Sprites_429
+    21300860: Stone Tiles Sprites_430
+    21300862: Stone Tiles Sprites_431
+    21300864: Stone Tiles Sprites_432
+    21300866: Stone Tiles Sprites_433
+    21300868: Stone Tiles Sprites_434
+    21300870: Stone Tiles Sprites_435
+    21300872: Stone Tiles Sprites_436
+    21300874: Stone Tiles Sprites_437
+    21300876: Stone Tiles Sprites_438
+    21300878: Stone Tiles Sprites_439
+    21300880: Stone Tiles Sprites_440
+    21300882: Stone Tiles Sprites_441
+    21300884: Stone Tiles Sprites_442
+    21300886: Stone Tiles Sprites_443
+    21300888: Stone Tiles Sprites_444
+    21300890: Stone Tiles Sprites_445
+    21300892: Stone Tiles Sprites_446
+    21300894: Stone Tiles Sprites_447
+    21300896: Stone Tiles Sprites_448
+    21300898: Stone Tiles Sprites_449
+    21300900: Stone Tiles Sprites_450
+    21300902: Stone Tiles Sprites_451
+    21300904: Stone Tiles Sprites_452
+    21300906: Stone Tiles Sprites_453
+    21300908: Stone Tiles Sprites_454
+    21300910: Stone Tiles Sprites_455
+    21300912: Stone Tiles Sprites_456
+    21300914: Stone Tiles Sprites_457
+    21300916: Stone Tiles Sprites_458
+    21300918: Stone Tiles Sprites_459
+    21300920: Stone Tiles Sprites_460
+    21300922: Stone Tiles Sprites_461
+    21300924: Stone Tiles Sprites_462
+    21300926: Stone Tiles Sprites_463
+    21300928: Stone Tiles Sprites_464
+    21300930: Stone Tiles Sprites_465
+    21300932: Stone Tiles Sprites_466
+    21300934: Stone Tiles Sprites_467
+    21300936: Stone Tiles Sprites_468
+    21300938: Stone Tiles Sprites_469
+    21300940: Stone Tiles Sprites_470
+    21300942: Stone Tiles Sprites_471
+    21300944: Stone Tiles Sprites_472
+    21300946: Stone Tiles Sprites_473
+    21300948: Stone Tiles Sprites_474
+    21300950: Stone Tiles Sprites_475
+    21300952: Stone Tiles Sprites_476
+    21300954: Stone Tiles Sprites_477
+    21300956: Stone Tiles Sprites_478
+    21300958: Stone Tiles Sprites_479
+    21300960: Stone Tiles Sprites_480
+    21300962: Stone Tiles Sprites_481
+    21300964: Stone Tiles Sprites_482
+    21300966: Stone Tiles Sprites_483
+    21300968: Stone Tiles Sprites_484
+    21300970: Stone Tiles Sprites_485
+    21300972: Stone Tiles Sprites_486
+    21300974: Stone Tiles Sprites_487
+    21300976: Stone Tiles Sprites_488
+    21300978: Stone Tiles Sprites_489
+    21300980: Stone Tiles Sprites_490
+    21300982: Stone Tiles Sprites_491
+    21300984: Stone Tiles Sprites_492
+    21300986: Stone Tiles Sprites_493
+    21300988: Stone Tiles Sprites_494
+    21300990: Stone Tiles Sprites_495
+    21300992: Stone Tiles Sprites_496
+    21300994: Stone Tiles Sprites_497
+    21300996: Stone Tiles Sprites_498
+    21300998: Stone Tiles Sprites_499
+    21301000: Stone Tiles Sprites_500
+    21301002: Stone Tiles Sprites_501
+    21301004: Stone Tiles Sprites_502
+    21301006: Stone Tiles Sprites_503
+    21301008: Stone Tiles Sprites_504
+    21301010: Stone Tiles Sprites_505
+    21301012: Stone Tiles Sprites_506
+    21301014: Stone Tiles Sprites_507
+    21301016: Stone Tiles Sprites_508
+    21301018: Stone Tiles Sprites_509
+    21301020: Stone Tiles Sprites_510
+    21301022: Stone Tiles Sprites_511
+    21301024: Stone Tiles Sprites_512
+    21301026: Stone Tiles Sprites_513
+    21301028: Stone Tiles Sprites_514
+    21301030: Stone Tiles Sprites_515
+    21301032: Stone Tiles Sprites_516
+    21301034: Stone Tiles Sprites_517
+    21301036: Stone Tiles Sprites_518
+    21301038: Stone Tiles Sprites_519
+    21301040: Stone Tiles Sprites_520
+    21301042: Stone Tiles Sprites_521
+    21301044: Stone Tiles Sprites_522
+    21301046: Stone Tiles Sprites_523
+    21301048: Stone Tiles Sprites_524
+    21301050: Stone Tiles Sprites_525
+    21301052: Stone Tiles Sprites_526
+    21301054: Stone Tiles Sprites_527
+    21301056: Stone Tiles Sprites_528
+    21301058: Stone Tiles Sprites_529
+    21301060: Stone Tiles Sprites_530
+    21301062: Stone Tiles Sprites_531
+    21301064: Stone Tiles Sprites_532
+    21301066: Stone Tiles Sprites_533
+    21301068: Stone Tiles Sprites_534
+    21301070: Stone Tiles Sprites_535
+    21301072: Stone Tiles Sprites_536
+    21301074: Stone Tiles Sprites_537
+    21301076: Stone Tiles Sprites_538
+    21301078: Stone Tiles Sprites_539
+    21301080: Stone Tiles Sprites_540
+    21301082: Stone Tiles Sprites_541
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -211,12 +595,12 @@ TextureImporter:
     - name: Stone Tiles Sprites_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 284
-        width: 257
-        height: 224
+        x: 4
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Stone Tiles Sprites_1
       rect:
@@ -621,22 +1005,22 @@ TextureImporter:
     - name: Stone Tiles Sprites_41
       rect:
         serializedVersion: 2
-        x: 5
+        x: 18
         y: 254
-        width: 82
-        height: 122
+        width: 69
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Stone Tiles Sprites_42
       rect:
         serializedVersion: 2
-        x: 102
+        x: 115
         y: 254
-        width: 85
-        height: 94
+        width: 66
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Stone Tiles Sprites_43
       rect:
@@ -801,12 +1185,12 @@ TextureImporter:
     - name: Stone Tiles Sprites_59
       rect:
         serializedVersion: 2
-        x: 746
-        y: 245
-        width: 41
-        height: 90
+        x: 749
+        y: 255
+        width: 29
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Stone Tiles Sprites_60
       rect:
@@ -918,16 +1302,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Stone Tiles Sprites_71
-      rect:
-        serializedVersion: 2
-        x: 799
-        y: 269
-        width: 6
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Stone Tiles Sprites_72
       rect:
         serializedVersion: 2
@@ -998,45 +1372,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Stone Tiles Sprites_79
-      rect:
-        serializedVersion: 2
-        x: 791
-        y: 258
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Stone Tiles Sprites_80
-      rect:
-        serializedVersion: 2
-        x: 803
-        y: 260
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Stone Tiles Sprites_81
-      rect:
-        serializedVersion: 2
-        x: 785
-        y: 253
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Stone Tiles Sprites_82
       rect:
         serializedVersion: 2
-        x: 797
-        y: 248
-        width: 12
-        height: 8
+        x: 782
+        y: 244
+        width: 29
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Stone Tiles Sprites_83
       rect:
@@ -1055,16 +1399,6 @@ TextureImporter:
         y: 185
         width: 96
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Stone Tiles Sprites_85
-      rect:
-        serializedVersion: 2
-        x: 791
-        y: 245
-        width: 4
-        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1536,7 +1870,7 @@ TextureImporter:
         width: 18
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Stone Tiles Sprites_133
       rect:
@@ -1728,65 +2062,75 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Stone Tiles Sprites_152
+    - name: Stone Tiles Sprites_158
       rect:
         serializedVersion: 2
-        x: 882
-        y: 2
-        width: 4
-        height: 5
+        x: 4
+        y: 447
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Stone Tiles Sprites_153
+    - name: Stone Tiles Sprites_159
       rect:
         serializedVersion: 2
-        x: 887
-        y: 2
-        width: 4
-        height: 5
+        x: 4
+        y: 382
+        width: 32
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Stone Tiles Sprites_154
+    - name: Stone Tiles Sprites_160
       rect:
         serializedVersion: 2
-        x: 892
-        y: 2
-        width: 8
-        height: 5
+        x: 37
+        y: 382
+        width: 31
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Stone Tiles Sprites_155
+    - name: Stone Tiles Sprites_161
       rect:
         serializedVersion: 2
-        x: 901
-        y: 2
-        width: 8
-        height: 5
+        x: 69
+        y: 382
+        width: 31
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Stone Tiles Sprites_156
+    - name: Stone Tiles Sprites_71
       rect:
         serializedVersion: 2
-        x: 914
-        y: 2
-        width: 4
-        height: 5
+        x: 5
+        y: 318
+        width: 30
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Stone Tiles Sprites_157
+    - name: Stone Tiles Sprites_79
       rect:
         serializedVersion: 2
-        x: 919
-        y: 2
-        width: 5
-        height: 5
+        x: 230
+        y: 383
+        width: 29
+        height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stone Tiles Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 446
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

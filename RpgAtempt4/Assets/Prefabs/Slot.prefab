@@ -11,6 +11,7 @@ GameObject:
   - 222: {fileID: 22297718}
   - 114: {fileID: 11403340}
   - 114: {fileID: 11458368}
+  - 114: {fileID: 11446398}
   m_Layer: 5
   m_Name: Slot
   m_TagString: Untagged
@@ -45,6 +46,19 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &11446398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d75eec5b24a1144a180671637517b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 0}
+  slotnumber: 53
 --- !u!114 &11458368
 MonoBehaviour:
   m_ObjectHideFlags: 1

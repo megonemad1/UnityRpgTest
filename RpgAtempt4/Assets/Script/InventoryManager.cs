@@ -19,17 +19,20 @@ public class InventoryManager : MonoBehaviour
         itemdatabase = GetComponent<ItemDataBase>();
         for (int i = 0; i < SlotAmount; i++)
         {
-            GameObject invslot = Instantiate(InventorySlot);
+            GameObject inventorySlot = Instantiate(InventorySlot);
+            InventorySlotData inventorySlotData = inventorySlot.GetComponent<InventorySlotData>();
+            inventorySlotData.inventoryObj = this.gameObject;
+            inventorySlotData.slotnumber = i;
+            inventorySlot.name = "slot" + inventorySlotData.slotnumber;
+            inventorySlot.transform.SetParent(SlotPanel.transform);
             Item item = new Item();
             items.Add(item);
-            slots.Add(invslot);
-            invslot.name = "slot" + i;
-            invslot.transform.SetParent(SlotPanel.transform);
-
-
+            slots.Add(inventorySlot);
         }
-        for (int i = 0; i < 53; i ++)
+
         AddItem("bow");
+
+        AddItem("coin_copper",50);
 
     }
     public bool AddItem(string id)
@@ -60,6 +63,9 @@ public class InventoryManager : MonoBehaviour
             GameObject itemObj = Instantiate(InventoryItem);
             ItemData data = itemObj.GetComponent<ItemData>();
             data.amount += SlotAmountToAdd;
+            data.item = item;
+            data.slotnumber = index;
+            data.inventory = this.gameObject;
             Text StackAmoutText = data.transform.GetChild(0).GetComponent<Text>();
             StackAmoutText.text = (data.amount>1)?data.amount.ToString():"";
             itemObj.transform.SetParent(slots[index].transform);
@@ -109,18 +115,7 @@ public class InventoryManager : MonoBehaviour
         }
         return false;
     }
-    public void SwapItems(int indexa, int indexb)
-    {
-        GameObject slota = slots[indexa];
-        GameObject slotb = slots[indexb];
-        GameObject itemObja = slota.transform.GetChild(0).gameObject;
-        GameObject itemObjb = slotb.transform.GetChild(0).gameObject;
-        itemObja.transform.SetParent(slotb.transform);
-        itemObjb.transform.SetParent(slota.transform);
-        Item itemb = items[indexb];
-        items[indexb] = items[indexa];
-        items[indexa] = itemb;
-    }
+
 
     // Update is called once per frame
     void Update()

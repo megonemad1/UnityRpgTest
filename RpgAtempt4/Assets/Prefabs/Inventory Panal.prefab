@@ -28,6 +28,7 @@ GameObject:
   - 224: {fileID: 22475498}
   - 222: {fileID: 22232808}
   - 114: {fileID: 11499466}
+  - 114: {fileID: 11436748}
   m_Layer: 5
   m_Name: Title Panal
   m_TagString: Untagged
@@ -62,6 +63,7 @@ GameObject:
   - 224: {fileID: 22401046}
   - 222: {fileID: 22233370}
   - 114: {fileID: 11477294}
+  - 114: {fileID: 11437900}
   m_Layer: 5
   m_Name: Inventory Panal
   m_TagString: Untagged
@@ -101,6 +103,31 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Inventory
+--- !u!114 &11436748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77f052803c45da42929ab472c879896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11437900
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ffdab8f2aa3084ea020fb4aa64c8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInventoryVisible: 0
+  cooldowndelay: 100
+  cooldown: 0
 --- !u!114 &11475454
 MonoBehaviour:
   m_ObjectHideFlags: 1
