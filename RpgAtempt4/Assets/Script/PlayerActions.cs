@@ -8,7 +8,7 @@ public class PlayerActions : MonoBehaviour
     Transform player;
     public float PlayerReach;
     InventoryManager inventoryManager;
-    public int cooldown = 0;
+    public int uicooldown = 0;
     public int CoolDownStep = 10;
     // Use this for initialization
     void Start()
@@ -17,6 +17,7 @@ public class PlayerActions : MonoBehaviour
         player = GetComponent<Transform>();
         colideroffset = GetComponent<CircleCollider2D>();
         inventoryManager = GetComponent<InventoryManager>();
+        inventoryManager.InventoryPanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -51,22 +52,22 @@ public class PlayerActions : MonoBehaviour
             }
 
         }
-        if (Input.GetAxisRaw("") == 1)
+        if (Input.GetAxisRaw("Fire1") == 1)
         {
 
         }
-        if (Input.GetAxisRaw("Cancel") == 1 && cooldown <= 0)
+        if (Input.GetAxisRaw("Cancel") == 1 && uicooldown <= 0)
         {
-            cooldown = CoolDownStep;
+            uicooldown = CoolDownStep;
             inventoryManager.InventoryPanel.SetActive(false);
         }
-        if (Input.GetAxisRaw("Inventory") == 1 && cooldown <= 0)
+        if (Input.GetAxisRaw("Inventory") == 1 && uicooldown <= 0)
         {
-            cooldown = CoolDownStep;
+            uicooldown = CoolDownStep;
             inventoryManager.InventoryPanel.SetActive(!inventoryManager.InventoryPanel.activeSelf);
         }
-        if (cooldown > 0)
-            cooldown--;
+        if (uicooldown > 0)
+            uicooldown--;
 
 
     }

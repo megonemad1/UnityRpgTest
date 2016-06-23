@@ -61,6 +61,7 @@
      <Compile Include="Assets\Script\OpenChest.cs" />
      <Compile Include="Assets\Script\PlayerActions.cs" />
      <Compile Include="Assets\Script\PlayerMovement.cs" />
+     <Compile Include="Assets\Script\ToolTipManager.cs" />
      <Compile Include="Assets\Script\UseAction.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />

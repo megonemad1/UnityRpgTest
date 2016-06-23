@@ -20,7 +20,7 @@ public class InventorySlotData : MonoBehaviour, IDropHandler
                 inventory.items[slotnumber] = dropeditem.item;
                 dropeditem.slotnumber = slotnumber;
             }
-            else
+            else if (dropeditem.slotnumber != slotnumber)
             {
                 Transform currentItem = this.transform.GetChild(0);
                 ItemData currentItemData = currentItem.GetComponent<ItemData>();

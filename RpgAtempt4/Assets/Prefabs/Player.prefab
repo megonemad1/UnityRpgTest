@@ -17,6 +17,7 @@ GameObject:
   - 114: {fileID: 11493088}
   - 114: {fileID: 11426332}
   - 114: {fileID: 11439338}
+  - 114: {fileID: 11436218}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -126,6 +127,20 @@ MonoBehaviour:
   InventoryItem: {fileID: 122260, guid: ec653937bd53b2e4b962b4d77dad3b9d, type: 2}
   slots: []
   SlotAmount: 54
+--- !u!114 &11436218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e998ea42b33e7644f8cf91bc70c4b87a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tooltip: {fileID: 0}
+  titleColor: {r: 0, g: 0, b: 0, a: 0}
+  DescriptionColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11439338
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -149,6 +164,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerReach: .200000003
+  uicooldown: 0
+  CoolDownStep: 10
 --- !u!114 &11493088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -212,7 +229,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: tooltip
+      value: 
+      objectReference: {fileID: 183452, guid: 102218631a3847a44ae6d6a4ae83b2a4, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 131322}

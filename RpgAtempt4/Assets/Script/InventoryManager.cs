@@ -66,6 +66,7 @@ public class InventoryManager : MonoBehaviour
             data.item = item;
             data.slotnumber = index;
             data.inventory = this.gameObject;
+            data.tooltipManager = GetComponent<ToolTipManager>();
             Text StackAmoutText = data.transform.GetChild(0).GetComponent<Text>();
             StackAmoutText.text = (data.amount>1)?data.amount.ToString():"";
             itemObj.transform.SetParent(slots[index].transform);

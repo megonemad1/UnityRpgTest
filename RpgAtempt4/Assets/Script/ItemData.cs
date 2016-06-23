@@ -4,16 +4,16 @@ using System.Collections;
 using System;
 using UnityEngine.UI;
 
-public class ItemData : MonoBehaviour,  IBeginDragHandler,IDragHandler, IEndDragHandler  {
+public class ItemData : MonoBehaviour,  IBeginDragHandler,IDragHandler, IEndDragHandler , IPointerEnterHandler, IPointerExitHandler {
 
     public Item item;
     public int slotnumber;
     public int amount=1;
     Vector2 ofset;
     public GameObject inventory;
+    public ToolTipManager tooltipManager;
     void start()
     {
-        
     }
     void Update()
     {
@@ -64,5 +64,15 @@ public class ItemData : MonoBehaviour,  IBeginDragHandler,IDragHandler, IEndDrag
             this.transform.SetParent(inventory.GetComponent<InventoryManager>().slots[slotnumber].transform);
             GetComponent<CanvasGroup>().blocksRaycasts = true;
         }
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        tooltipManager.Activate(this.item);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        tooltipManager.Deactivate();
     }
 }
