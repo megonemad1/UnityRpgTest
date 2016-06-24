@@ -12,7 +12,6 @@ GameObject:
   - 95: {fileID: 9554352}
   - 50: {fileID: 5066830}
   - 58: {fileID: 5809814}
-  - 114: {fileID: 11499892}
   - 114: {fileID: 11447442}
   - 114: {fileID: 11493088}
   - 114: {fileID: 11426332}
@@ -47,7 +46,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155466}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 488108}
@@ -166,6 +165,11 @@ MonoBehaviour:
   PlayerReach: .200000003
   uicooldown: 0
   CoolDownStep: 10
+  flighting: 0
+  Drawn: 0
+  arrow: {fileID: 106028, guid: 8389104e76d476a41a35f28beff06127, type: 2}
+  hand: {fileID: 155466}
+  facing: {x: 0, y: 0}
 --- !u!114 &11493088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -185,18 +189,6 @@ MonoBehaviour:
   MaxManna: 20
   WalkingSpeed: 1
   runningModifyer: 2
---- !u!114 &11499892
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 131322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bc627e428fbb894c8f11efec4fea9dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  facing: {x: 0, y: 0}
 --- !u!212 &21292722
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -234,6 +226,22 @@ Prefab:
       propertyPath: tooltip
       value: 
       objectReference: {fileID: 183452, guid: 102218631a3847a44ae6d6a4ae83b2a4, type: 2}
+    - target: {fileID: 0}
+      propertyPath: arrow
+      value: 
+      objectReference: {fileID: 106028, guid: 8389104e76d476a41a35f28beff06127, type: 2}
+    - target: {fileID: 0}
+      propertyPath: hand
+      value: 
+      objectReference: {fileID: 155466}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 131322}

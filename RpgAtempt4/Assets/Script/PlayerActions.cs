@@ -3,27 +3,93 @@ using System.Collections;
 
 public class PlayerActions : MonoBehaviour
 {
-    PlayerMovement movementControler;
     CircleCollider2D colideroffset;
     Transform player;
     public float PlayerReach;
     InventoryManager inventoryManager;
     public int uicooldown = 0;
     public int CoolDownStep = 10;
+    public bool flighting;
+    public bool Drawn;
+    public bool arrowReady;
+    public GameObject arrow;
+    public GameObject hand;
+    LivingStatsManager stats;
+    Rigidbody2D rbody;
+    Animator anim;
+
+    public Vector2 Facing
+    {
+        get
+        {
+            return facing;
+        }
+    }
+
+    public Vector2 facing;
     // Use this for initialization
     void Start()
     {
-        movementControler = GetComponent<PlayerMovement>();
+     
         player = GetComponent<Transform>();
         colideroffset = GetComponent<CircleCollider2D>();
         inventoryManager = GetComponent<InventoryManager>();
         inventoryManager.InventoryPanel.SetActive(false);
+        rbody = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        stats = GetComponent<LivingStatsManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
 
+        if (Input.GetAxisRaw("Fire1") == 1 && !inventoryManager.InventoryPanel.activeSelf)
+        {
+            flighting = true;
+        }
+        else
+        {
+            flighting = false;
+        }
+        float Speed = stats.WalkingSpeed;
+        if (Input.GetAxisRaw("Fire3") == 1)
+        {
+            Speed *= stats.runningModifyer;
+        }
+        anim.SetFloat("Speed", Speed);
+        Vector2 movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        bool moving = movement != Vector2.zero;
+        anim.SetBool("Is_Walking", moving);
+        rbody.MovePosition(rbody.position + movement * Speed * Time.deltaTime);
+        if (moving)
+        {
+            anim.SetFloat("Input_x", movement.x);
+            anim.SetFloat("Input_y", movement.y);
+            facing = movement;
+            flighting = false;
+        }
+        //if arrow drawn && not flighting 
+        //create arrow and fire it, then drawn arrow = false;
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("ArrowDrawn")&&!flighting)
+        {
+            arrowReady = true;
+        }
+        if (arrowReady && !anim.GetCurrentAnimatorStateInfo(0).IsName("ArrowDrawn"))
+        {
+            arrowReady = false;
+            Debug.Log("fire");
+            flighting = false;
+            GameObject arrowObj = Instantiate(arrow);
+            //get hand of player
+            arrowObj.transform.position = this.transform.position+(Vector3)facing*PlayerReach;
+            var dir = this.transform.position - Input.mousePosition;
+            var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+            arrowObj.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            arrowObj.GetComponent<Rigidbody2D>().AddForce(dir.normalized * 1000);
+        }
+
+        anim.SetBool("FlightingArrow",flighting);
         InventoryManagerold inventory = GetComponent<InventoryManagerold>();
         for (int i = 0; i < 9; i++)
         {
@@ -35,11 +101,11 @@ public class PlayerActions : MonoBehaviour
 
         if (Input.GetAxisRaw("Submit") == 1)
         {
-            Debug.Log(player.position.ToString() + "-" + (player.position + new Vector3(movementControler.Facing.normalized.x, movementControler.Facing.normalized.y) * PlayerReach).ToString());
+            Debug.Log(player.position.ToString() + "-" + (player.position + new Vector3(Facing.normalized.x, Facing.normalized.y) * PlayerReach).ToString());
             Vector3 Start = player.position + new Vector3(colideroffset.offset.x, colideroffset.offset.y, 0);
-            Vector3 End = Start + new Vector3(movementControler.Facing.normalized.x, movementControler.Facing.normalized.y) * PlayerReach;
+            Vector3 End = Start + new Vector3(Facing.normalized.x, Facing.normalized.y) * PlayerReach;
             Debug.DrawLine(Start, End);
-            RaycastHit2D hit = Physics2D.Raycast(Start, movementControler.Facing, PlayerReach);
+            RaycastHit2D hit = Physics2D.Raycast(Start, Facing, PlayerReach);
 
             if (hit && hit.collider.tag == "Actionable")
             {
@@ -52,10 +118,7 @@ public class PlayerActions : MonoBehaviour
             }
 
         }
-        if (Input.GetAxisRaw("Fire1") == 1)
-        {
 
-        }
         if (Input.GetAxisRaw("Cancel") == 1 && uicooldown <= 0)
         {
             uicooldown = CoolDownStep;
