@@ -12,7 +12,7 @@ GameObject:
   - 58: {fileID: 5856050}
   - 114: {fileID: 11494198}
   - 50: {fileID: 5066906}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &5856050
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -59,7 +59,7 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: .5}
   serializedVersion: 2
-  m_Radius: .0399999991
+  m_Radius: .100000001
 --- !u!114 &11494198
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -71,6 +71,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0636e71ba84f2a542b1ab3658b269e4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minVelocity: 1
+  MaxLifeTime: 128
 --- !u!212 &21217344
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -122,7 +124,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Constraints
-      value: 0
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Radius
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MaxLifeTime
+      value: 128
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

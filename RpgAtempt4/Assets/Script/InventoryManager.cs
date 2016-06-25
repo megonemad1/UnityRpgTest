@@ -16,7 +16,7 @@ public class InventoryManager : MonoBehaviour
     {
 
         SlotPanel = InventoryPanel.transform.FindChild("Slot Panel").gameObject;
-        itemdatabase = GetComponent<ItemDataBase>();
+        itemdatabase = GameObject.FindGameObjectWithTag("ItemDataBase").GetComponent<ItemDataBase>();
         for (int i = 0; i < SlotAmount; i++)
         {
             GameObject inventorySlot = Instantiate(InventorySlot);

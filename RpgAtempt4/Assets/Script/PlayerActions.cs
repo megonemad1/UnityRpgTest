@@ -17,7 +17,7 @@ public class PlayerActions : MonoBehaviour
     LivingStatsManager stats;
     Rigidbody2D rbody;
     Animator anim;
-
+    public Camera camra;
     public Vector2 Facing
     {
         get
@@ -44,9 +44,13 @@ public class PlayerActions : MonoBehaviour
     void Update()
     {
 
+        Vector2 mousepos = camra.ScreenToWorldPoint(Input.mousePosition);
         if (Input.GetAxisRaw("Fire1") == 1 && !inventoryManager.InventoryPanel.activeSelf)
         {
             flighting = true;
+
+            anim.SetFloat("Aim_x", mousepos.x-this.transform.position.x);
+            anim.SetFloat("Aim_y", mousepos.y - this.transform.position.y);
         }
         else
         {
@@ -81,12 +85,23 @@ public class PlayerActions : MonoBehaviour
             Debug.Log("fire");
             flighting = false;
             GameObject arrowObj = Instantiate(arrow);
+            Rigidbody2D arrowrbody = arrowObj.GetComponent<Rigidbody2D>();
             //get hand of player
             arrowObj.transform.position = this.transform.position+(Vector3)facing*PlayerReach;
-            var dir = this.transform.position - Input.mousePosition;
-            var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-            arrowObj.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-            arrowObj.GetComponent<Rigidbody2D>().AddForce(dir.normalized * 1000);
+
+
+            Vector2 difference = mousepos-(Vector2)transform.position;
+            float AngleRad = Mathf.Atan2(difference.y, difference.x);
+            float AngleDeg = (180 / Mathf.PI) * AngleRad;
+            arrowObj.transform.rotation = Quaternion.Euler(0, 0, AngleDeg);
+            //      Vector2 mousePos = Input.mousePosition;
+
+            //float rotationZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
+            //  arrowrbody.rotation = rotationZ;
+            // arrowObj.transform.rotation = Quaternion.Euler(0, 0, AngleDeg);
+            // arrowObj.transform.rotation.
+
+            arrowrbody.AddForce(difference.normalized * 1000);
         }
 
         anim.SetBool("FlightingArrow",flighting);

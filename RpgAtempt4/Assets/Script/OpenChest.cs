@@ -10,27 +10,24 @@ public class OpenChest : MonoBehaviour, UseAction
     public GameObject ItemType;
     public string item = "coin_copper";
     public int amount = 50;
+    ItemDataBase itemdatabase;
     public UseAction Activate(GameObject sender)
     {
 
         anim.SetBool("Is_Open", true);
         colider.enabled = false;
         InventoryManager inventory = sender.GetComponent<InventoryManager>();
-        ItemDataBase database = sender.GetComponent<ItemDataBase>();
-        if (inventory)
-        {
-            //oldItem newloot = Instantiate<oldItem>(loot);
-            if (!inventory.AddItem(item, this.amount))
-            {
-                Item lootItem = database.getItemByID(item);
-                GameObject itemObj = Instantiate(this.ItemType);
-                ItemData data = itemObj.GetComponent<ItemData>();
-                data.amount = this.amount;
-                data.item = lootItem;
-                itemObj.transform.position = this.transform.position;
-                itemObj.GetComponent<SpriteRenderer>().sprite=lootItem.sprite;
-            }
-        }
+       
+        if (inventory && inventory.AddItem(item, this.amount))
+            return this;
+
+        Item lootItem = itemdatabase.getItemByID(item);
+        GameObject itemObj = Instantiate(this.ItemType);
+        ItemData data = itemObj.GetComponent<ItemData>();
+        data.amount = this.amount;
+        data.item = lootItem;
+        itemObj.transform.position = this.transform.position;
+        itemObj.GetComponent<SpriteRenderer>().sprite = lootItem.sprite;
         return this;
     }
 
@@ -39,6 +36,8 @@ public class OpenChest : MonoBehaviour, UseAction
     {
         anim = GetComponent<Animator>();
         colider = GetComponent<BoxCollider2D>();
+
+        itemdatabase = GameObject.FindGameObjectWithTag("ItemDataBase").GetComponent<ItemDataBase>();
     }
 
 

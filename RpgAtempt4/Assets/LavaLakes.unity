@@ -381,6 +381,52 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
+--- !u!1001 &970965501
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 463372, guid: bf93e2d56e1a7aa4886797ceeebdabf6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6.61476135
+      objectReference: {fileID: 0}
+    - target: {fileID: 463372, guid: bf93e2d56e1a7aa4886797ceeebdabf6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5.65510654
+      objectReference: {fileID: 0}
+    - target: {fileID: 463372, guid: bf93e2d56e1a7aa4886797ceeebdabf6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 463372, guid: bf93e2d56e1a7aa4886797ceeebdabf6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 463372, guid: bf93e2d56e1a7aa4886797ceeebdabf6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 463372, guid: bf93e2d56e1a7aa4886797ceeebdabf6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 463372, guid: bf93e2d56e1a7aa4886797ceeebdabf6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 463372, guid: bf93e2d56e1a7aa4886797ceeebdabf6, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 104696, guid: bf93e2d56e1a7aa4886797ceeebdabf6, type: 2}
+      propertyPath: m_TagString
+      value: ItemDataBase
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: bf93e2d56e1a7aa4886797ceeebdabf6, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1022333152
 Prefab:
   m_ObjectHideFlags: 0
@@ -534,42 +580,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 11436218, guid: b63ba54bf9527944f8c4fe57d649b6de, type: 2}
-      propertyPath: tooltip
+    - target: {fileID: 11447442, guid: b63ba54bf9527944f8c4fe57d649b6de, type: 2}
+      propertyPath: camra
       value: 
-      objectReference: {fileID: 1346870649}
+      objectReference: {fileID: 1864459019}
     - target: {fileID: 11426332, guid: b63ba54bf9527944f8c4fe57d649b6de, type: 2}
       propertyPath: InventoryPanel
       value: 
       objectReference: {fileID: 531760506}
     - target: {fileID: 11436218, guid: b63ba54bf9527944f8c4fe57d649b6de, type: 2}
-      propertyPath: titleColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11436218, guid: b63ba54bf9527944f8c4fe57d649b6de, type: 2}
-      propertyPath: titleColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11436218, guid: b63ba54bf9527944f8c4fe57d649b6de, type: 2}
-      propertyPath: titleColor.b
-      value: .379310369
-      objectReference: {fileID: 0}
-    - target: {fileID: 11436218, guid: b63ba54bf9527944f8c4fe57d649b6de, type: 2}
-      propertyPath: DescriptionColor.r
-      value: .779310346
-      objectReference: {fileID: 0}
-    - target: {fileID: 11436218, guid: b63ba54bf9527944f8c4fe57d649b6de, type: 2}
-      propertyPath: DescriptionColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 437464, guid: b63ba54bf9527944f8c4fe57d649b6de, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437464, guid: b63ba54bf9527944f8c4fe57d649b6de, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: tooltip
+      value: 
+      objectReference: {fileID: 1346870649}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b63ba54bf9527944f8c4fe57d649b6de, type: 2}
   m_IsPrefabParent: 0

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Actionable
   - AirBased
+  - ItemDataBase
   layers:
   - Default
   - TransparentFX
