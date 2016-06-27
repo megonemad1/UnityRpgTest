@@ -87,13 +87,14 @@ public class PlayerActions : MonoBehaviour
             GameObject arrowObj = Instantiate(arrow);
             Rigidbody2D arrowrbody = arrowObj.GetComponent<Rigidbody2D>();
             //get hand of player
-            arrowObj.transform.position = this.transform.position+(Vector3)facing*PlayerReach;
+            arrowObj.transform.position = this.transform.position+(Vector3)mousepos.normalized*PlayerReach;
 
 
             Vector2 difference = mousepos-(Vector2)transform.position;
             float AngleRad = Mathf.Atan2(difference.y, difference.x);
             float AngleDeg = (180 / Mathf.PI) * AngleRad;
             arrowObj.transform.rotation = Quaternion.Euler(0, 0, AngleDeg);
+           // arrowObj.GetComponent<CircleCollider2D>().offset = arrowObj.transform.rotation * new Vector2(0.5f,0);
             //      Vector2 mousePos = Input.mousePosition;
 
             //float rotationZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;

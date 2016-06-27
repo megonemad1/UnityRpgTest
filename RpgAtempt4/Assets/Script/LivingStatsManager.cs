@@ -11,6 +11,7 @@ public class LivingStatsManager : MonoBehaviour
     public float MaxManna=20;
     public float WalkingSpeed=1;
     public float runningModifyer=2;
+    public float asd;
     public bool Is_Alive { get { return Health > 0; } set { Health = (value) ? MaxHealth : 0; } }
     
     void Update()
@@ -29,8 +30,16 @@ public class LivingStatsManager : MonoBehaviour
             Manna = Mathf.Lerp(Manna, MaxManna, 0.1f);
         }
     }
-    
 
 
+    void OnGUI()
+    {
+
+        Vector2 targetPos;
+        targetPos = Camera.main.WorldToScreenPoint(transform.position);
+
+        GUI.Box(new Rect(targetPos.x, Screen.height - asd, 60, 20), Health + "/" + MaxHealth);
+
+    }
 
 }

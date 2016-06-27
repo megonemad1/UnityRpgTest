@@ -85,6 +85,7 @@
      <None Include="Assets\Resources\Sprites\UI\UIpack\license.txt" />
      <None Include="Assets\Resources\Sprites\UI\Icon assets (fighter)\license.txt" />
      <None Include="Assets\Resources\Sprites\UI\Kenney_gameIcons\license.txt" />
+     <None Include="Assets\GradientGUIBars\ReadMe\AboutFonts.txt" />
      <None Include="Assets\Resources\Sprites\Tiles\Roguelike pack\Spritesheet\spritesheetInfo.txt" />
      <None Include="Assets\Resources\Sprites\ken_fonts\license.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaColorKey.shader" />
@@ -92,6 +93,9 @@
      <None Include="Assets\Tiled2Unity\License.txt" />
      <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -106,6 +110,9 @@
  </Reference>
  <Reference Include="UnityEditor.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
  <HintPath>H:/unity/UnityRpgTest/RpgAtempt4/Assets/Plugins/LitJson.dll</HintPath>
